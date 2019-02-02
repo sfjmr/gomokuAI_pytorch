@@ -2,7 +2,7 @@ import numpy as np
 import random
 
 from general_func import index2rc, chg_input_cnn
-
+from init import BANHEN, WINREN
 
 
 def decide_action_func(model, ban, state):
@@ -31,7 +31,7 @@ def check_win_rate_put_1st(Env, brain, model, max_episode):#indexが小さいと
     
     not_win_0 = 0
     not_win_1 = 0
-    ban = Env()
+    ban = Env(BANHEN, WINREN)
     brain = brain
     
     for episode in range(max_episode):
@@ -82,7 +82,7 @@ def check_win_rate_random(Env, brain, model, max_episode):#勝率を計算する
     win_0 = 0
     win_1 = 0
     hiki = 0
-    ban = Env()
+    ban = Env(BANHEN, WINREN)
     brain = brain
     
     for episode in range(max_episode):
