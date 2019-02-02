@@ -3,7 +3,7 @@ import random
 import torch
 
 from general_func import index2rc, chg_input_cnn
-from init import BANHEN, WINREN
+from init import BANHEN, WINREN, device
 
 
 def decide_action_func(model, ban, state):
