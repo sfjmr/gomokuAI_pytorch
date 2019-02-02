@@ -56,6 +56,8 @@ now = datetime.datetime.now()
 print('{0:%Y%m%d}'.format(now)) 
 
 
+
+
 #tensorboarx
 writer_x = SummaryWriter('tfbx2/' + '_' +'{0:%Y%m%d%H%M%S_}'.format(now)+ model_filename +MEMO +'/')
 
