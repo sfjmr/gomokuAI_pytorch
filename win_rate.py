@@ -1,5 +1,6 @@
 import numpy as np
 import random
+import torch
 
 from general_func import index2rc, chg_input_cnn
 from init import BANHEN, WINREN
