@@ -16,7 +16,7 @@ from win_rate import check_win_rate_ai, check_win_rate_put_1st, check_win_rate_r
 from init import BANHEN, BANSIZE, WINREN, file_path, lr, lr_filename, model_filename, MEMO, CAPACITY, device, GAMMA, BATCH_SIZE, T, NUM_EPISODES, epoch_num, update_win_rate, flg_fastmode
 
 
-
+print("device", device)
 
 
 
