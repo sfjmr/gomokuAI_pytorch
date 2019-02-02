@@ -93,7 +93,7 @@ if __name__ == '__main__':
             
             tmp_data = []
             
-            #log_print("episode_sum : " + str(episode_sum))
+            log_print("episode_sum : " + str(episode_sum))
                 
             
             while match_is_continue:
