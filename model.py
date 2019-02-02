@@ -11,7 +11,7 @@ from multiprocessing import Pool
 from multiprocessing import Process
 
 
-device = torch.device('cuda')
+#device = torch.device('cuda')
 #device = torch.device("cuda:0")
 #device = torch.device("cuda:1")
 

@@ -7,10 +7,13 @@ import numpy as np
 import copy
 
 
+import torch.nn.functional as F
+
+
 from general_func import index2rc, rc2index, lr_file_read, chg_input_cnn
 
 class Brain_dqn:
-    def __init__(self, network, num_states, num_actions, ban, ReplayMemory,  GAMMA, BATCH_SIZE, lr, T, BANHEN, BANSIZE):
+    def __init__(self, network, device, num_actions, ban, ReplayMemory,  GAMMA, BATCH_SIZE, lr, T, BANHEN, BANSIZE):
         self.num_actions = num_actions  
 
         # 経験を記憶するメモリオブジェクトを生成
@@ -33,7 +36,7 @@ class Brain_dqn:
         self.main_model = network(BANHEN, BANSIZE)
         self.new_model = network(BANHEN, BANSIZE)
         
-        self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        self.device = device
 
         #gpu並列処理
         self.main_model = nn.DataParallel(self.main_model).to(self.device)
@@ -260,13 +263,13 @@ class Brain_dqn:
             
             
             non_final_mask = torch.tensor(tuple(map(lambda s: s is not None,
-                                          batch.next_state)), device=device, dtype=torch.uint8)
+                                          batch.next_state)), device=self.device, dtype=torch.uint8)
             non_final_next_states = torch.cat([s for s in batch.next_state
                                                 if s is not None])
             
             state_action_values = self.new_model(state_batch)[0].gather(1, action_batch)
             
-            next_state_values = torch.zeros(BATCH_SIZE, device=device)
+            next_state_values = torch.zeros(BATCH_SIZE, device=self.device)
             next_state_values[non_final_mask] = self.new_model(non_final_next_states)[0].max(1)[0].detach()
             # Compute the expected Q values
             expected_state_action_values = (next_state_values * self.GAMMA) + reward_batch

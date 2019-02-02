@@ -1,3 +1,9 @@
+import numpy as np
+import random
+
+from general_func import index2rc, chg_input_cnn
+
+
 
 def decide_action_func(model, ban, state):
         '''現在の状態に応じて、行動を決定する'''
@@ -140,7 +146,7 @@ def check_win_rate_ai(Env, brain, main_model, new_model, max_episode):
             player_side = 0
             state = chg_input_cnn(ban, player_side)
             
-            if step <= random_put_limit:
+            if step <= 1:
                 action = random.choice(ban.ban_put_available())
             else:
                 action, _= decide_action_func(main_model, ban, state)
@@ -160,7 +166,7 @@ def check_win_rate_ai(Env, brain, main_model, new_model, max_episode):
             player_side = 1
             state = chg_input_cnn(ban, player_side)
             
-            if step <= random_put_limit:
+            if step <= 1:
                 action = random.choice(ban.ban_put_available())
             else:
                 action, _= decide_action_func(new_model, ban, state)

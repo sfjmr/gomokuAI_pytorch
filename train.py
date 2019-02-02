@@ -3,21 +3,24 @@ import torch
 import copy
 import datetime
 import os
+import torch
 
 
 from tensorboardX import SummaryWriter
-#aaa
 
-from general_func import write_lr, log_print
+from general_func import write_lr, log_print, chg_input_cnn, rc2index
 from environment import Env
 from replayMemory import ReplayMemory
 from brain import Brain_dqn
 from model import NeuralNet_cnn
+from win_rate import check_win_rate_ai, check_win_rate_put_1st, check_win_rate_random
 
 
 BANHEN = 3
 BANSIZE = BANHEN**2
 WINREN = 3
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 GAMMA = 0.999  # 時間割引率
 NUM_EPISODES = 50# 最大試行回数 これを行うごとにネットワークを比較する
@@ -36,6 +39,7 @@ update_win_rate = 55 #これ以上の勝率のときネットワークを更新�
 model_filename = 'model_cnn_01_31_dqn_var1_part11'
 file_path = "models/"+ model_filename
 MEMO = "epoch10 lr0.01, dqn スケール可変 GAMMA = 0.999 out_p = tanh EPS_END = 0.05 decay=10000 hardtanh  activation_fun 最後なし bn追加"
+
 
 
 
@@ -70,7 +74,7 @@ pp = pprint.PrettyPrinter(indent=4)
 
 ban = Env(BANHEN, WINREN)
 memory = ReplayMemory(CAPACITY, ban)
-brain = Brain_dqn(NeuralNet_cnn, 2*ban.size, ban.size, ban,
+brain = Brain_dqn(NeuralNet_cnn, device, ban.size, ban,
                   memory,  GAMMA, BATCH_SIZE,  lr, T, BANHEN, BANSIZE)
 
 match_is_continue = True #試合が継続しているかどうか
