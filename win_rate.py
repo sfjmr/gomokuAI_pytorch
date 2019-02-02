@@ -134,7 +134,7 @@ def check_win_rate_random(Env, brain, model, max_episode):#勝率を計算する
 def check_win_rate_ai(Env, brain, main_model, new_model, max_episode):
     win_main = 0
     win_new = 0
-    ban = Env()
+    ban = Env(BANHEN, WINREN)
     
     
     for episode in range(max_episode):
