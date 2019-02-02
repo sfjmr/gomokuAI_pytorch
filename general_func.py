@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 
-from train import BANHEN,BANSIZE,log_filename,lr_filename
+from init import BANHEN, BANSIZE, log_filename, lr_filename
 
 def chg_input_cnn(ban, player_side):
     state = ban.status(player_side)
