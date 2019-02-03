@@ -235,5 +235,5 @@ def check_win_rate_ai(Env, brain, main_model, new_model, max_episode):
 
     
     
-    win_rate = 100*(win_new+draw)/(max_episode*2)
+    win_rate = 100*(win_new)/(win_main + win_new)
     return win_rate
