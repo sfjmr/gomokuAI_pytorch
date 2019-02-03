@@ -173,7 +173,7 @@ if __name__ == '__main__':
             #log_print('episode_sum: {:08d}, episode: {:04d}/{:04d}, step:{:04d}, lr : {:03.5f}, loss : {:03.20f}'.format(episode_sum, episode+1, NUM_EPISODES, step, brain.lr, brain.loss_num))
 
 
-        if episode_sum > ep_random_data:
+        if True:
             log_print("episode_sum : " + str(episode_sum))
             #ランダムと比較
             win_rate_put_1st = check_win_rate_put_1st(Env, brain, brain.main_model, 1)
