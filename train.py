@@ -174,6 +174,7 @@ if __name__ == '__main__':
 
 
         if episode_sum > ep_random_data:
+            log_print("episode_sum : " + str(episode_sum))
             #ランダムと比較
             win_rate_put_1st = check_win_rate_put_1st(Env, brain, brain.main_model, 1)
             win_rate_random , not_lose_rate_random = check_win_rate_random(Env, brain, brain.main_model, 400)
