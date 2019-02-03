@@ -35,7 +35,7 @@ def check_win_rate_put_1st(Env, brain, model, max_episode):#indexが小さいと
     ban = Env(BANHEN, WINREN)
     brain = brain
     
-    for episode in range(max_episode):
+    for episode in range(1):
         ban.ban_reset()
         step = 0
         while True:
