@@ -187,9 +187,9 @@ if __name__ == '__main__':
             writer_x.add_scalar('Val/win_rate', win_rate_random, episode_sum)
             writer_x.add_scalar('Val/not_lose_rate', not_lose_rate_random, episode_sum)
             #new_modelとnew_modelを比較する
-            win_rate_for_check = check_win_rate_ai(Env, brain, brain.main_model, brain.new_model, 200)
+            #win_rate_for_check = check_win_rate_ai(Env, brain, brain.main_model, brain.new_model, 200)
             #log_print("vs old model : " + str(win_rate_for_check))
-            writer_x.add_scalar('Val/vs old model_rate', win_rate_for_check, episode_sum)
+            #writer_x.add_scalar('Val/vs old model_rate', win_rate_for_check, episode_sum)
             if True:#win_rate_for_check > update_win_rate:#update_win_rate以上だとモデルを更新する
                 writer_x.add_scalar('Val/chg_model', 1, episode_sum)
                 brain.update_main_network()
