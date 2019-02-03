@@ -1,10 +1,11 @@
 import torch
 
+
 BANHEN = 3
 BANSIZE = BANHEN**2
 WINREN = 3
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = ("cuda" if torch.cuda.is_available() else "cpu")
 
 
 GAMMA = 0.999  # 時間割引率
