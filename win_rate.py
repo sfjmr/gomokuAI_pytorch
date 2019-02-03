@@ -147,7 +147,7 @@ def check_win_rate_ai(Env, brain, main_model, new_model, max_episode):
             player_side = 0
             state = chg_input_cnn(ban, player_side)
             
-            if step <= 1:
+            if step <= 1:#ランダムに打つ
                 action = random.choice(ban.ban_put_available())
             else:
                 action, _= decide_action_func(main_model, ban, state)
@@ -190,8 +190,12 @@ def check_win_rate_ai(Env, brain, main_model, new_model, max_episode):
             #print('player 0 random')
             
             player_side = 0
-            state = chg_input_cnn(ban, player_side)
             action ,_= decide_action_func(new_model, ban, state)
+            
+            if step <= 1:#ランダムに打つ
+                action = random.choice(ban.ban_put_available())
+            else:
+                action, _= decide_action_func(new_model, ban, state)
             
             ban.ban_applay(player_side, action[0], action[1])
             #print(action)
@@ -207,7 +211,11 @@ def check_win_rate_ai(Env, brain, main_model, new_model, max_episode):
             #print('player 1')
             player_side = 1
             state = chg_input_cnn(ban, player_side)
-            action, _= decide_action_func(main_model, ban, state)
+            
+            if step <= 1:#ランダムに打つ
+                action = random.choice(ban.ban_put_available())
+            else:
+                action, _= decide_action_func(main_model, ban, state)
             
             ban.ban_applay(player_side, action[0], action[1])
             #print(action)
