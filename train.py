@@ -233,15 +233,3 @@ if __name__ == '__main__':
     log_print("経過時間")
     log_print(elapsed_time)
 
-    #メモリデータを多くした．
-    #v_outputを追加した．
-    #loss関数をgo zeroのようにした．
-    #learning rateを可変にした．
-    #batch sizeにまでデータがたまるまでは，今あるもので訓練するようにした．
-    #Tを可変にした
-    
-    #やること
-    #aiの挙動をみる
-    #探索アルゴリズムを修正をする
-    
-    
