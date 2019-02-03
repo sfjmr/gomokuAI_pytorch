@@ -18,7 +18,6 @@ def decide_action_func(model, ban, state):
                 out_p = out_p.cpu().numpy()[0]
                 
                 p_index = np.argsort(out_p)[::-1]
-                p_index = p_index
                 ban_put_available = ban.ban_put_available()
                 #print(ban_put_available)
                 for index in p_index:
