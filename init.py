@@ -1,4 +1,5 @@
 import torch
+import datetime
 
 
 BANHEN = 3
@@ -22,9 +23,11 @@ flg_fastmode = False  # 探索なしランダム打ち　デバック用
 gen_num_limit = 500  # モデルが何世代目になったら訓練をやめるか
 random_put_limit = 3  # 最初はランダムに打つ
 update_win_rate = 55  # これ以上の勝率のときネットワークを更新する
-model_filename = 'model_cnn_01_31_dqn_var1_part11'
+
+now = now = datetime.datetime.now()
+model_filename = 'model_cnn_01_31_dqn_var1_part11_{0:%Y%m%d%H%M%S_}'.format(now)
 file_path = "models/" + model_filename
-MEMO = "epoch10 lr0.01, dqn スケール可変 GAMMA = 0.999 out_p = tanh EPS_END = 0.05 decay=10000 hardtanh  activation_fun 最後なし bn追加"
+MEMO = " {} lr={},  GAMMA={} ".format(model_filename, lr,GAMMA)
 
 log_filename = file_path + "/" + model_filename + '.txt'  # ログ用
 lr_filename = file_path + "/lr.txt"  # ログ用
