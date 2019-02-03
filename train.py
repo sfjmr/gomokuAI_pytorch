@@ -170,6 +170,8 @@ if __name__ == '__main__':
             writer_x.add_scalar('Val/Loss_p', brain.loss_p, episode_sum)
             writer_x.add_scalar('Val/step', step, episode_sum)
             writer_x.add_scalar('Val/lr', brain.lr, episode_sum)
+            writer_x.add_scalar('Val/len memory', len(brain.memory), episode_sum)
+
             #log_print('episode_sum: {:08d}, episode: {:04d}/{:04d}, step:{:04d}, lr : {:03.5f}, loss : {:03.20f}'.format(episode_sum, episode+1, NUM_EPISODES, step, brain.lr, brain.loss_num))
 
 
