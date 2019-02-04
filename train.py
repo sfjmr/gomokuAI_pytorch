@@ -77,7 +77,7 @@ log_print(start_time)
 #print(brain.main_model)
 dummy_input = chg_input_cnn(ban, 0)
 #print(dummy_input.size())
-writer_x.add_graph(NeuralNet_cnn, dummy_input)
+writer_x.add_graph(NeuralNet_cnn)
 
 if __name__ == '__main__':
     while train_is_continue:
