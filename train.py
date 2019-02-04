@@ -82,7 +82,7 @@ dummy_input = chg_input_cnn(ban, 0)
 #print(dummy_input.size())
 
 dummy_model =  nn.DataParallel(NeuralNet_cnn(BANHEN, BANSIZE)).to(device)
-writer_x.add_graph(dummy_model, dummy_input)
+writer_x.add_graph(dummy_model)
 
 if __name__ == '__main__':
     while train_is_continue:
