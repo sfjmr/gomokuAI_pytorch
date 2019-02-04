@@ -76,6 +76,7 @@ log_print(start_time)
 
 print(brain.main_model)
 dummy_input = chg_input_cnn(ban, 0)
+print(dummy_input)
 writer_x.add_graph(brain.main_model, dummy_input)
 
 if __name__ == '__main__':
