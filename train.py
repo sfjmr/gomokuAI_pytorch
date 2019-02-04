@@ -74,6 +74,8 @@ start_time = datetime.datetime.now()
 log_print("start time")
 log_print(start_time)
 
+writer_x.add_graph(brain.main_model)
+
 if __name__ == '__main__':
     while train_is_continue:
         for episode in range(NUM_EPISODES):  # 最大試行数分繰り返す
