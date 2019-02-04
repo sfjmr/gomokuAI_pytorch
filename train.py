@@ -84,9 +84,8 @@ dummy_input = chg_input_cnn(ban, 0)
 #dummy_model =  nn.DataParallel(NeuralNet_cnn(BANHEN, BANSIZE)).to(device)
 #writer_x.add_graph(dummy_model)
 
-with SummaryWriter(comment='model') as w:
-    model = NeuralNet_cnn(BANHEN, BANSIZE)
-    writer_x.add_graph(model, (dummy_input, ), verbose=True)
+model = NeuralNet_cnn(BANHEN, BANSIZE)
+writer_x.add_graph(model, (dummy_input, ), verbose=True)
 
 if __name__ == '__main__':
     while train_is_continue:
