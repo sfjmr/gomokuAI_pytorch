@@ -6,6 +6,9 @@ import os
 import torch
 
 from tensorboardX import SummaryWriter
+from torch import nn
+from torch import optim
+
 
 from general_func import write_lr, log_print, chg_input_cnn, rc2index
 from environment import Env
@@ -77,7 +80,9 @@ log_print(start_time)
 #print(brain.main_model)
 dummy_input = chg_input_cnn(ban, 0)
 #print(dummy_input.size())
-writer_x.add_graph(NeuralNet_cnn(BANHEN, BANSIZE))
+
+dummy_model =  nn.DataParallel(NeuralNet_cnn(BANHEN, BANSIZE)).to(device)
+writer_x.add_graph(dummy_model)
 
 if __name__ == '__main__':
     while train_is_continue:
