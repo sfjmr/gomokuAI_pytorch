@@ -74,6 +74,7 @@ start_time = datetime.datetime.now()
 log_print("start time")
 log_print(start_time)
 
+print(brain.main_model)
 writer_x.add_graph(brain.main_model)
 
 if __name__ == '__main__':
