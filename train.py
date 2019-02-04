@@ -75,7 +75,7 @@ log_print("start time")
 log_print(start_time)
 
 print(brain.main_model)
-dummy_input = torch.autograd.Variable(torch.rand(1, 3, BANHEN, BANHEN))
+dummy_input = chg_input_cnn(ban, 0)
 writer_x.add_graph(brain.main_model, dummy_input)
 
 if __name__ == '__main__':
