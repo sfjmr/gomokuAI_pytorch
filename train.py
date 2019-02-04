@@ -86,7 +86,7 @@ dummy_input = chg_input_cnn(ban, 0)
 
 with SummaryWriter(comment='model') as w:
     model = NeuralNet_cnn(BANHEN, BANSIZE)
-    w.add_graph(model, (dummy_input, ), verbose=True)
+    writer_x.add_graph(model, (dummy_input, ), verbose=True)
 
 if __name__ == '__main__':
     while train_is_continue:
