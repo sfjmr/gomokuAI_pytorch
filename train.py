@@ -144,7 +144,7 @@ if __name__ == '__main__':
                     len_data = len(tmp_data)
                     reward_0 = torch.tensor([0], device=device, dtype=torch.float)
                     #state', 'action', 'next_state', 'reward'
-                    memory.push(tmp_data[len_data-3][0], tmp_data[len_data-3][1], state, reward_0)
+                    memory.push(tmp_data[len_data-3][0], tmp_data[len_data-3][1], state, reward)
 
                 
                     
