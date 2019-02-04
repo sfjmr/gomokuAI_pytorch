@@ -1,0 +1,461 @@
+lrはtextファイルから読み取り
+start : model_cnn_01_31_dqn_var1_part11_20190203210412_
+start time
+2019-02-03 21:04:14.233250
+episode_sum : 50
+vs random player not lose: 39.5
+episode_sum : 100
+vs random player not lose: 44.5
+episode_sum : 150
+vs random player not lose: 45.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__0gen.pht
+0genfinish time
+2019-02-03 21:04:46.134024
+0gen経過時間
+0:00:31.900774
+episode_sum : 200
+vs random player not lose: 49.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__1gen.pht
+1genfinish time
+2019-02-03 21:04:56.253154
+1gen経過時間
+0:00:42.019904
+episode_sum : 250
+vs random player not lose: 57.75
+episode_sum : 300
+vs random player not lose: 56.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__2gen.pht
+2genfinish time
+2019-02-03 21:05:16.198765
+2gen経過時間
+0:01:01.965515
+episode_sum : 350
+vs random player not lose: 48.0
+episode_sum : 400
+vs random player not lose: 44.0
+episode_sum : 450
+vs random player not lose: 48.75
+episode_sum : 500
+vs random player not lose: 48.5
+episode_sum : 550
+vs random player not lose: 44.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__3gen.pht
+3genfinish time
+2019-02-03 21:06:07.966086
+3gen経過時間
+0:01:53.732836
+episode_sum : 600
+vs random player not lose: 55.0
+episode_sum : 650
+vs random player not lose: 56.25
+episode_sum : 700
+vs random player not lose: 59.5
+episode_sum : 750
+vs random player not lose: 57.0
+episode_sum : 800
+vs random player not lose: 56.75
+episode_sum : 850
+vs random player not lose: 58.0
+episode_sum : 900
+vs random player not lose: 52.75
+episode_sum : 950
+vs random player not lose: 61.5
+episode_sum : 1000
+vs random player not lose: 60.25
+episode_sum : 1050
+vs random player not lose: 59.5
+episode_sum : 1100
+vs random player not lose: 58.75
+episode_sum : 1150
+vs random player not lose: 56.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__4gen.pht
+4genfinish time
+2019-02-03 21:08:09.094352
+4gen経過時間
+0:03:54.861102
+episode_sum : 1200
+vs random player not lose: 69.5
+episode_sum : 1250
+vs random player not lose: 74.25
+episode_sum : 1300
+vs random player not lose: 71.5
+episode_sum : 1350
+vs random player not lose: 63.5
+episode_sum : 1400
+vs random player not lose: 72.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__5gen.pht
+5genfinish time
+2019-02-03 21:08:58.782334
+5gen経過時間
+0:04:44.549084
+episode_sum : 1450
+vs random player not lose: 66.0
+episode_sum : 1500
+vs random player not lose: 68.5
+episode_sum : 1550
+vs random player not lose: 68.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__6gen.pht
+6genfinish time
+2019-02-03 21:09:28.696462
+6gen経過時間
+0:05:14.463212
+episode_sum : 1600
+vs random player not lose: 67.5
+episode_sum : 1650
+vs random player not lose: 69.75
+episode_sum : 1700
+vs random player not lose: 68.25
+episode_sum : 1750
+vs random player not lose: 70.5
+episode_sum : 1800
+vs random player not lose: 66.25
+episode_sum : 1850
+vs random player not lose: 72.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__7gen.pht
+7genfinish time
+2019-02-03 21:10:30.189365
+7gen経過時間
+0:06:15.956115
+episode_sum : 1900
+vs random player not lose: 67.75
+episode_sum : 1950
+vs random player not lose: 67.5
+episode_sum : 2000
+vs random player not lose: 67.0
+episode_sum : 2050
+vs random player not lose: 69.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__8gen.pht
+8genfinish time
+2019-02-03 21:11:11.207339
+8gen経過時間
+0:06:56.974089
+episode_sum : 2100
+vs random player not lose: 75.25
+episode_sum : 2150
+vs random player not lose: 73.25
+episode_sum : 2200
+vs random player not lose: 74.5
+episode_sum : 2250
+vs random player not lose: 73.0
+episode_sum : 2300
+vs random player not lose: 74.25
+episode_sum : 2350
+vs random player not lose: 77.0
+episode_sum : 2400
+vs random player not lose: 77.5
+episode_sum : 2450
+vs random player not lose: 77.5
+episode_sum : 2500
+vs random player not lose: 70.25
+episode_sum : 2550
+vs random player not lose: 76.0
+episode_sum : 2600
+vs random player not lose: 77.75
+episode_sum : 2650
+vs random player not lose: 78.0
+episode_sum : 2700
+vs random player not lose: 75.75
+episode_sum : 2750
+vs random player not lose: 79.0
+episode_sum : 2800
+vs random player not lose: 75.0
+episode_sum : 2850
+vs random player not lose: 73.0
+episode_sum : 2900
+vs random player not lose: 76.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__9gen.pht
+9genfinish time
+2019-02-03 21:14:05.119206
+9gen経過時間
+0:09:50.885956
+episode_sum : 2950
+vs random player not lose: 69.75
+episode_sum : 3000
+vs random player not lose: 73.25
+episode_sum : 3050
+vs random player not lose: 74.0
+episode_sum : 3100
+vs random player not lose: 70.0
+episode_sum : 3150
+vs random player not lose: 73.0
+episode_sum : 3200
+vs random player not lose: 71.5
+episode_sum : 3250
+vs random player not lose: 67.5
+episode_sum : 3300
+vs random player not lose: 70.25
+episode_sum : 3350
+vs random player not lose: 74.0
+episode_sum : 3400
+vs random player not lose: 73.5
+episode_sum : 3450
+vs random player not lose: 71.5
+episode_sum : 3500
+vs random player not lose: 72.75
+episode_sum : 3550
+vs random player not lose: 72.5
+episode_sum : 3600
+vs random player not lose: 72.5
+episode_sum : 3650
+vs random player not lose: 68.5
+episode_sum : 3700
+vs random player not lose: 72.5
+episode_sum : 3750
+vs random player not lose: 73.5
+episode_sum : 3800
+vs random player not lose: 71.75
+episode_sum : 3850
+vs random player not lose: 70.0
+episode_sum : 3900
+vs random player not lose: 72.25
+episode_sum : 3950
+vs random player not lose: 70.75
+episode_sum : 4000
+vs random player not lose: 75.75
+episode_sum : 4050
+vs random player not lose: 74.0
+episode_sum : 4100
+vs random player not lose: 71.75
+episode_sum : 4150
+vs random player not lose: 72.5
+episode_sum : 4200
+vs random player not lose: 74.0
+episode_sum : 4250
+vs random player not lose: 74.75
+episode_sum : 4300
+vs random player not lose: 73.0
+episode_sum : 4350
+vs random player not lose: 67.5
+episode_sum : 4400
+vs random player not lose: 70.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__10gen.pht
+10genfinish time
+2019-02-03 21:19:19.302554
+10gen経過時間
+0:15:05.069304
+episode_sum : 4450
+vs random player not lose: 78.5
+episode_sum : 4500
+vs random player not lose: 78.5
+episode_sum : 4550
+vs random player not lose: 76.5
+episode_sum : 4600
+vs random player not lose: 75.0
+episode_sum : 4650
+vs random player not lose: 80.0
+episode_sum : 4700
+vs random player not lose: 74.25
+episode_sum : 4750
+vs random player not lose: 76.25
+episode_sum : 4800
+vs random player not lose: 74.5
+episode_sum : 4850
+vs random player not lose: 72.75
+episode_sum : 4900
+vs random player not lose: 74.0
+episode_sum : 4950
+vs random player not lose: 76.0
+episode_sum : 5000
+vs random player not lose: 76.5
+episode_sum : 5050
+vs random player not lose: 73.25
+episode_sum : 5100
+vs random player not lose: 76.5
+episode_sum : 5150
+vs random player not lose: 75.0
+episode_sum : 5200
+vs random player not lose: 77.75
+episode_sum : 5250
+vs random player not lose: 77.0
+episode_sum : 5300
+vs random player not lose: 77.5
+episode_sum : 5350
+vs random player not lose: 76.25
+episode_sum : 5400
+vs random player not lose: 77.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__11gen.pht
+11genfinish time
+2019-02-03 21:22:54.073369
+11gen経過時間
+0:18:39.840119
+episode_sum : 5450
+vs random player not lose: 81.75
+episode_sum : 5500
+vs random player not lose: 81.25
+episode_sum : 5550
+vs random player not lose: 82.75
+episode_sum : 5600
+vs random player not lose: 80.25
+episode_sum : 5650
+vs random player not lose: 79.0
+episode_sum : 5700
+vs random player not lose: 84.75
+episode_sum : 5750
+vs random player not lose: 84.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__12gen.pht
+12genfinish time
+2019-02-03 21:24:10.973037
+12gen経過時間
+0:19:56.739787
+episode_sum : 5800
+vs random player not lose: 84.5
+episode_sum : 5850
+vs random player not lose: 83.5
+episode_sum : 5900
+vs random player not lose: 83.0
+episode_sum : 5950
+vs random player not lose: 85.0
+episode_sum : 6000
+vs random player not lose: 87.0
+episode_sum : 6050
+vs random player not lose: 85.75
+episode_sum : 6100
+vs random player not lose: 87.0
+episode_sum : 6150
+vs random player not lose: 84.25
+episode_sum : 6200
+vs random player not lose: 82.0
+episode_sum : 6250
+vs random player not lose: 84.75
+episode_sum : 6300
+vs random player not lose: 79.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__13gen.pht
+13genfinish time
+2019-02-03 21:26:12.849412
+13gen経過時間
+0:21:58.616162
+episode_sum : 6350
+vs random player not lose: 77.5
+episode_sum : 6400
+vs random player not lose: 74.75
+episode_sum : 6450
+vs random player not lose: 77.25
+episode_sum : 6500
+vs random player not lose: 73.25
+episode_sum : 6550
+vs random player not lose: 75.0
+episode_sum : 6600
+vs random player not lose: 75.5
+episode_sum : 6650
+vs random player not lose: 73.75
+episode_sum : 6700
+vs random player not lose: 77.75
+episode_sum : 6750
+vs random player not lose: 75.25
+episode_sum : 6800
+vs random player not lose: 73.75
+episode_sum : 6850
+vs random player not lose: 80.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__14gen.pht
+14genfinish time
+2019-02-03 21:28:12.961736
+14gen経過時間
+0:23:58.728486
+episode_sum : 6900
+vs random player not lose: 75.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__15gen.pht
+15genfinish time
+2019-02-03 21:28:23.882369
+15gen経過時間
+0:24:09.649119
+episode_sum : 6950
+vs random player not lose: 75.5
+episode_sum : 7000
+vs random player not lose: 80.5
+episode_sum : 7050
+vs random player not lose: 76.25
+episode_sum : 7100
+vs random player not lose: 78.25
+episode_sum : 7150
+vs random player not lose: 75.25
+episode_sum : 7200
+vs random player not lose: 79.25
+episode_sum : 7250
+vs random player not lose: 75.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__16gen.pht
+16genfinish time
+2019-02-03 21:29:39.673657
+16gen経過時間
+0:25:25.440407
+episode_sum : 7300
+vs random player not lose: 77.75
+episode_sum : 7350
+vs random player not lose: 79.75
+episode_sum : 7400
+vs random player not lose: 81.0
+episode_sum : 7450
+vs random player not lose: 77.75
+episode_sum : 7500
+vs random player not lose: 80.25
+episode_sum : 7550
+vs random player not lose: 80.5
+episode_sum : 7600
+vs random player not lose: 75.75
+episode_sum : 7650
+vs random player not lose: 81.25
+episode_sum : 7700
+vs random player not lose: 76.5
+episode_sum : 7750
+vs random player not lose: 77.75
+episode_sum : 7800
+vs random player not lose: 78.0
+episode_sum : 7850
+vs random player not lose: 80.0
+episode_sum : 7900
+vs random player not lose: 79.0
+episode_sum : 7950
+vs random player not lose: 78.75
+episode_sum : 8000
+vs random player not lose: 80.0
+episode_sum : 8050
+vs random player not lose: 80.5
+episode_sum : 8100
+vs random player not lose: 79.75
+episode_sum : 8150
+vs random player not lose: 82.25
+episode_sum : 8200
+vs random player not lose: 78.5
+episode_sum : 8250
+vs random player not lose: 79.5
+episode_sum : 8300
+vs random player not lose: 81.75
+episode_sum : 8350
+vs random player not lose: 79.25
+episode_sum : 8400
+vs random player not lose: 81.0
+episode_sum : 8450
+vs random player not lose: 80.0
+episode_sum : 8500
+vs random player not lose: 75.5
+episode_sum : 8550
+vs random player not lose: 84.0
+episode_sum : 8600
+vs random player not lose: 80.0
+episode_sum : 8650
+vs random player not lose: 77.75
+episode_sum : 8700
+vs random player not lose: 78.25
+episode_sum : 8750
+vs random player not lose: 79.0
+episode_sum : 8800
+vs random player not lose: 77.5
+episode_sum : 8850
+vs random player not lose: 78.5
+episode_sum : 8900
+vs random player not lose: 79.25
+episode_sum : 8950
+vs random player not lose: 77.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203210412_/model_cnn_01_31_dqn_var1_part11_20190203210412__17gen.pht
+17genfinish time
+2019-02-03 21:35:48.207421
+17gen経過時間
+0:31:33.974171
+episode_sum : 9000
+vs random player not lose: 81.25
+episode_sum : 9050
+vs random player not lose: 79.0
+episode_sum : 9100
+vs random player not lose: 80.0
+episode_sum : 9150
+vs random player not lose: 80.5
+episode_sum : 9200

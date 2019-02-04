@@ -1,0 +1,250 @@
+lrはtextファイルから読み取り
+start : model_cnn_01_31_dqn_var1_part11_20190203213643_
+start time
+2019-02-03 21:36:45.470423
+episode_sum : 50
+vs random player not lose: 59.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__0gen.pht
+0genfinish time
+2019-02-03 21:36:57.570913
+0gen経過時間
+0:00:12.100490
+episode_sum : 100
+vs random player not lose: 48.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__1gen.pht
+1genfinish time
+2019-02-03 21:37:07.496842
+1gen経過時間
+0:00:22.026419
+episode_sum : 150
+vs random player not lose: 48.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__2gen.pht
+2genfinish time
+2019-02-03 21:37:17.963216
+2gen経過時間
+0:00:32.492793
+episode_sum : 200
+vs random player not lose: 41.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__3gen.pht
+3genfinish time
+2019-02-03 21:37:28.243573
+3gen経過時間
+0:00:42.773150
+episode_sum : 250
+vs random player not lose: 45.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__4gen.pht
+4genfinish time
+2019-02-03 21:37:38.751832
+4gen経過時間
+0:00:53.281409
+episode_sum : 300
+vs random player not lose: 44.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__5gen.pht
+5genfinish time
+2019-02-03 21:37:49.154743
+5gen経過時間
+0:01:03.684320
+episode_sum : 350
+vs random player not lose: 54.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__6gen.pht
+6genfinish time
+2019-02-03 21:37:59.428207
+6gen経過時間
+0:01:13.957784
+episode_sum : 400
+vs random player not lose: 50.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__7gen.pht
+7genfinish time
+2019-02-03 21:38:09.357602
+7gen経過時間
+0:01:23.887179
+episode_sum : 450
+vs random player not lose: 58.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__8gen.pht
+8genfinish time
+2019-02-03 21:38:19.685733
+8gen経過時間
+0:01:34.215310
+episode_sum : 500
+vs random player not lose: 53.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__9gen.pht
+9genfinish time
+2019-02-03 21:38:30.032498
+9gen経過時間
+0:01:44.562075
+episode_sum : 550
+vs random player not lose: 62.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__10gen.pht
+10genfinish time
+2019-02-03 21:38:40.319025
+10gen経過時間
+0:01:54.848602
+episode_sum : 600
+vs random player not lose: 63.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__11gen.pht
+11genfinish time
+2019-02-03 21:38:50.069736
+11gen経過時間
+0:02:04.599313
+episode_sum : 650
+vs random player not lose: 52.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__12gen.pht
+12genfinish time
+2019-02-03 21:38:59.833543
+12gen経過時間
+0:02:14.363120
+episode_sum : 700
+vs random player not lose: 66.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__13gen.pht
+13genfinish time
+2019-02-03 21:39:09.862502
+13gen経過時間
+0:02:24.392079
+episode_sum : 750
+vs random player not lose: 57.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__14gen.pht
+14genfinish time
+2019-02-03 21:39:19.895136
+14gen経過時間
+0:02:34.424713
+episode_sum : 800
+vs random player not lose: 64.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__15gen.pht
+15genfinish time
+2019-02-03 21:39:29.881821
+15gen経過時間
+0:02:44.411398
+episode_sum : 850
+vs random player not lose: 59.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__16gen.pht
+16genfinish time
+2019-02-03 21:39:40.155251
+16gen経過時間
+0:02:54.684828
+episode_sum : 900
+vs random player not lose: 61.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__17gen.pht
+17genfinish time
+2019-02-03 21:39:50.477925
+17gen経過時間
+0:03:05.007502
+episode_sum : 950
+vs random player not lose: 65.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__18gen.pht
+18genfinish time
+2019-02-03 21:40:00.736070
+18gen経過時間
+0:03:15.265647
+episode_sum : 1000
+vs random player not lose: 68.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__19gen.pht
+19genfinish time
+2019-02-03 21:40:10.873300
+19gen経過時間
+0:03:25.402877
+episode_sum : 1050
+vs random player not lose: 65.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__20gen.pht
+20genfinish time
+2019-02-03 21:40:20.976240
+20gen経過時間
+0:03:35.505817
+episode_sum : 1100
+vs random player not lose: 65.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__21gen.pht
+21genfinish time
+2019-02-03 21:40:30.911047
+21gen経過時間
+0:03:45.440624
+episode_sum : 1150
+vs random player not lose: 64.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__22gen.pht
+22genfinish time
+2019-02-03 21:40:41.076213
+22gen経過時間
+0:03:55.605790
+episode_sum : 1200
+vs random player not lose: 68.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__23gen.pht
+23genfinish time
+2019-02-03 21:40:51.089895
+23gen経過時間
+0:04:05.619472
+episode_sum : 1250
+vs random player not lose: 66.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__24gen.pht
+24genfinish time
+2019-02-03 21:41:01.245490
+24gen経過時間
+0:04:15.775067
+episode_sum : 1300
+vs random player not lose: 63.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__25gen.pht
+25genfinish time
+2019-02-03 21:41:11.290538
+25gen経過時間
+0:04:25.820115
+episode_sum : 1350
+vs random player not lose: 65.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__26gen.pht
+26genfinish time
+2019-02-03 21:41:21.692831
+26gen経過時間
+0:04:36.222408
+episode_sum : 1400
+vs random player not lose: 64.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__27gen.pht
+27genfinish time
+2019-02-03 21:41:32.353044
+27gen経過時間
+0:04:46.882621
+episode_sum : 1450
+vs random player not lose: 60.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__28gen.pht
+28genfinish time
+2019-02-03 21:41:42.713972
+28gen経過時間
+0:04:57.243549
+episode_sum : 1500
+vs random player not lose: 57.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__29gen.pht
+29genfinish time
+2019-02-03 21:41:53.145328
+29gen経過時間
+0:05:07.674905
+episode_sum : 1550
+vs random player not lose: 68.25
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__30gen.pht
+30genfinish time
+2019-02-03 21:42:03.539370
+30gen経過時間
+0:05:18.068947
+episode_sum : 1600
+vs random player not lose: 61.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__31gen.pht
+31genfinish time
+2019-02-03 21:42:14.063203
+31gen経過時間
+0:05:28.592780
+episode_sum : 1650
+vs random player not lose: 66.0
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__32gen.pht
+32genfinish time
+2019-02-03 21:42:24.639993
+32gen経過時間
+0:05:39.169570
+episode_sum : 1700
+vs random player not lose: 69.75
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__33gen.pht
+33genfinish time
+2019-02-03 21:42:35.465172
+33gen経過時間
+0:05:49.994749
+episode_sum : 1750
+vs random player not lose: 73.5
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203213643_/model_cnn_01_31_dqn_var1_part11_20190203213643__34gen.pht
+34genfinish time
+2019-02-03 21:42:46.112568
+34gen経過時間
+0:06:00.642145
+episode_sum : 1800

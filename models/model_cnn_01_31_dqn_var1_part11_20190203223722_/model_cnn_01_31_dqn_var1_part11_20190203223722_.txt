@@ -1,0 +1,2528 @@
+lrはtextファイルから読み取り
+start : model_cnn_01_31_dqn_var1_part11_20190203223722_
+start time
+2019-02-03 22:37:24.090010
+episode_sum : 50
+vs random player not lose: 50.75
+vs old model : 61.95652173913044
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__0gen.pht
+0genfinish time
+2019-02-03 22:37:36.326088
+0gen経過時間
+0:00:12.236078
+episode_sum : 100
+vs random player not lose: 60.25
+vs old model : 52.38095238095238
+episode_sum : 150
+vs random player not lose: 56.75
+vs old model : 46.51810584958217
+episode_sum : 200
+vs random player not lose: 60.5
+vs old model : 42.00626959247649
+episode_sum : 250
+vs random player not lose: 57.25
+vs old model : 66.07142857142857
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__1gen.pht
+1genfinish time
+2019-02-03 22:38:17.139252
+1gen経過時間
+0:00:53.049242
+episode_sum : 300
+vs random player not lose: 57.5
+vs old model : 56.01092896174863
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__2gen.pht
+2genfinish time
+2019-02-03 22:38:26.730705
+2gen経過時間
+0:01:02.640695
+episode_sum : 350
+vs random player not lose: 54.75
+vs old model : 46.73629242819843
+episode_sum : 400
+vs random player not lose: 52.75
+vs old model : 53.005464480874316
+episode_sum : 450
+vs random player not lose: 58.75
+vs old model : 45.18716577540107
+episode_sum : 500
+vs random player not lose: 56.25
+vs old model : 52.785145888594165
+episode_sum : 550
+vs random player not lose: 58.5
+vs old model : 49.45652173913044
+episode_sum : 600
+vs random player not lose: 60.5
+vs old model : 42.5531914893617
+episode_sum : 650
+vs random player not lose: 56.5
+vs old model : 50.13333333333333
+episode_sum : 700
+vs random player not lose: 58.5
+vs old model : 61.016949152542374
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__3gen.pht
+3genfinish time
+2019-02-03 22:39:41.851269
+3gen経過時間
+0:02:17.761259
+episode_sum : 750
+vs random player not lose: 69.0
+vs old model : 51.289398280802295
+episode_sum : 800
+vs random player not lose: 72.75
+vs old model : 54.91803278688525
+episode_sum : 850
+vs random player not lose: 74.75
+vs old model : 47.790055248618785
+episode_sum : 900
+vs random player not lose: 70.0
+vs old model : 49.7093023255814
+episode_sum : 950
+vs random player not lose: 71.0
+vs old model : 54.86486486486486
+episode_sum : 1000
+vs random player not lose: 71.25
+vs old model : 59.77961432506887
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__4gen.pht
+4genfinish time
+2019-02-03 22:40:37.984560
+4gen経過時間
+0:03:13.894550
+episode_sum : 1050
+vs random player not lose: 75.5
+vs old model : 44.474393530997304
+episode_sum : 1100
+vs random player not lose: 73.0
+vs old model : 52.956989247311824
+episode_sum : 1150
+vs random player not lose: 73.75
+vs old model : 49.86737400530504
+episode_sum : 1200
+vs random player not lose: 73.75
+vs old model : 47.61904761904762
+episode_sum : 1250
+vs random player not lose: 75.0
+vs old model : 40.21447721179624
+episode_sum : 1300
+vs random player not lose: 74.0
+vs old model : 48.90710382513661
+episode_sum : 1350
+vs random player not lose: 77.0
+vs old model : 54.666666666666664
+episode_sum : 1400
+vs random player not lose: 73.5
+vs old model : 50.652741514360315
+episode_sum : 1450
+vs random player not lose: 76.25
+vs old model : 53.68421052631579
+episode_sum : 1500
+vs random player not lose: 77.25
+vs old model : 49.86876640419948
+episode_sum : 1550
+vs random player not lose: 74.0
+vs old model : 56.39686684073107
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__5gen.pht
+5genfinish time
+2019-02-03 22:42:15.894663
+5gen経過時間
+0:04:51.804653
+episode_sum : 1600
+vs random player not lose: 69.75
+vs old model : 52.63157894736842
+episode_sum : 1650
+vs random player not lose: 71.0
+vs old model : 49.333333333333336
+episode_sum : 1700
+vs random player not lose: 70.5
+vs old model : 49.59128065395095
+episode_sum : 1750
+vs random player not lose: 77.0
+vs old model : 54.4973544973545
+episode_sum : 1800
+vs random player not lose: 74.75
+vs old model : 55.208333333333336
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__6gen.pht
+6genfinish time
+2019-02-03 22:43:00.225570
+6gen経過時間
+0:05:36.135560
+episode_sum : 1850
+vs random player not lose: 73.0
+vs old model : 46.610169491525426
+episode_sum : 1900
+vs random player not lose: 73.0
+vs old model : 52.34159779614325
+episode_sum : 1950
+vs random player not lose: 73.0
+vs old model : 46.84931506849315
+episode_sum : 2000
+vs random player not lose: 64.75
+vs old model : 55.0408719346049
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__7gen.pht
+7genfinish time
+2019-02-03 22:43:35.968375
+7gen経過時間
+0:06:11.878365
+episode_sum : 2050
+vs random player not lose: 81.75
+vs old model : 52.89473684210526
+episode_sum : 2100
+vs random player not lose: 81.75
+vs old model : 58.68421052631579
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__8gen.pht
+8genfinish time
+2019-02-03 22:43:53.600655
+8gen経過時間
+0:06:29.510645
+episode_sum : 2150
+vs random player not lose: 80.25
+vs old model : 51.54639175257732
+episode_sum : 2200
+vs random player not lose: 78.75
+vs old model : 44.30051813471503
+episode_sum : 2250
+vs random player not lose: 79.25
+vs old model : 44.75703324808184
+episode_sum : 2300
+vs random player not lose: 82.5
+vs old model : 44.266666666666666
+episode_sum : 2350
+vs random player not lose: 79.25
+vs old model : 50.0
+episode_sum : 2400
+vs random player not lose: 77.75
+vs old model : 45.01347708894879
+episode_sum : 2450
+vs random player not lose: 78.5
+vs old model : 57.95148247978437
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__9gen.pht
+9genfinish time
+2019-02-03 22:44:56.194903
+9gen経過時間
+0:07:32.104893
+episode_sum : 2500
+vs random player not lose: 82.75
+vs old model : 48.228882833787466
+episode_sum : 2550
+vs random player not lose: 89.5
+vs old model : 55.42521994134897
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__10gen.pht
+10genfinish time
+2019-02-03 22:45:15.234195
+10gen経過時間
+0:07:51.144185
+episode_sum : 2600
+vs random player not lose: 78.25
+vs old model : 48.048048048048045
+episode_sum : 2650
+vs random player not lose: 81.75
+vs old model : 56.64556962025316
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__11gen.pht
+11genfinish time
+2019-02-03 22:45:34.709566
+11gen経過時間
+0:08:10.619556
+episode_sum : 2700
+vs random player not lose: 73.25
+vs old model : 43.098591549295776
+episode_sum : 2750
+vs random player not lose: 77.25
+vs old model : 48.54651162790697
+episode_sum : 2800
+vs random player not lose: 76.25
+vs old model : 54.32098765432099
+episode_sum : 2850
+vs random player not lose: 73.25
+vs old model : 54.07608695652174
+episode_sum : 2900
+vs random player not lose: 75.5
+vs old model : 52.48618784530387
+episode_sum : 2950
+vs random player not lose: 76.25
+vs old model : 56.16883116883117
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__12gen.pht
+12genfinish time
+2019-02-03 22:46:30.600682
+12gen経過時間
+0:09:06.510672
+episode_sum : 3000
+vs random player not lose: 75.0
+vs old model : 50.45592705167173
+episode_sum : 3050
+vs random player not lose: 80.75
+vs old model : 49.16201117318436
+episode_sum : 3100
+vs random player not lose: 80.5
+vs old model : 55.072463768115945
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__13gen.pht
+13genfinish time
+2019-02-03 22:46:59.120072
+13gen経過時間
+0:09:35.030062
+episode_sum : 3150
+vs random player not lose: 80.75
+vs old model : 51.81058495821727
+episode_sum : 3200
+vs random player not lose: 81.25
+vs old model : 45.04249291784703
+episode_sum : 3250
+vs random player not lose: 82.0
+vs old model : 50.828729281767956
+episode_sum : 3300
+vs random player not lose: 82.0
+vs old model : 55.97667638483965
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__14gen.pht
+14genfinish time
+2019-02-03 22:47:36.649223
+14gen経過時間
+0:10:12.559213
+episode_sum : 3350
+vs random player not lose: 79.5
+vs old model : 55.27065527065527
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__15gen.pht
+15genfinish time
+2019-02-03 22:47:45.885828
+15gen経過時間
+0:10:21.795818
+episode_sum : 3400
+vs random player not lose: 89.25
+vs old model : 49.84709480122324
+episode_sum : 3450
+vs random player not lose: 82.25
+vs old model : 49.2836676217765
+episode_sum : 3500
+vs random player not lose: 84.5
+vs old model : 49.68354430379747
+episode_sum : 3550
+vs random player not lose: 82.75
+vs old model : 46.49122807017544
+episode_sum : 3600
+vs random player not lose: 82.0
+vs old model : 51.873198847262245
+episode_sum : 3650
+vs random player not lose: 85.25
+vs old model : 50.0
+episode_sum : 3700
+vs random player not lose: 85.25
+vs old model : 42.71844660194175
+episode_sum : 3750
+vs random player not lose: 84.5
+vs old model : 50.578034682080926
+episode_sum : 3800
+vs random player not lose: 87.5
+vs old model : 46.15384615384615
+episode_sum : 3850
+vs random player not lose: 86.0
+vs old model : 45.42586750788644
+episode_sum : 3900
+vs random player not lose: 85.25
+vs old model : 40.809968847352025
+episode_sum : 3950
+vs random player not lose: 82.0
+vs old model : 49.83818770226537
+episode_sum : 4000
+vs random player not lose: 84.5
+vs old model : 54.98489425981873
+episode_sum : 4050
+vs random player not lose: 84.5
+vs old model : 48.68421052631579
+episode_sum : 4100
+vs random player not lose: 85.5
+vs old model : 47.557003257328994
+episode_sum : 4150
+vs random player not lose: 83.75
+vs old model : 54.74006116207951
+episode_sum : 4200
+vs random player not lose: 81.75
+vs old model : 51.661631419939575
+episode_sum : 4250
+vs random player not lose: 83.0
+vs old model : 58.035714285714285
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__16gen.pht
+16genfinish time
+2019-02-03 22:50:41.265546
+16gen経過時間
+0:13:17.175536
+episode_sum : 4300
+vs random player not lose: 87.75
+vs old model : 46.478873239436616
+episode_sum : 4350
+vs random player not lose: 87.5
+vs old model : 45.97014925373134
+episode_sum : 4400
+vs random player not lose: 83.5
+vs old model : 48.285714285714285
+episode_sum : 4450
+vs random player not lose: 87.5
+vs old model : 43.067846607669615
+episode_sum : 4500
+vs random player not lose: 84.0
+vs old model : 48.38709677419355
+episode_sum : 4550
+vs random player not lose: 86.0
+vs old model : 52.60115606936416
+episode_sum : 4600
+vs random player not lose: 88.0
+vs old model : 40.94707520891365
+episode_sum : 4650
+vs random player not lose: 87.25
+vs old model : 46.76056338028169
+episode_sum : 4700
+vs random player not lose: 86.25
+vs old model : 44.827586206896555
+episode_sum : 4750
+vs random player not lose: 87.5
+vs old model : 42.39766081871345
+episode_sum : 4800
+vs random player not lose: 85.5
+vs old model : 44.72222222222222
+episode_sum : 4850
+vs random player not lose: 84.5
+vs old model : 50.1432664756447
+episode_sum : 4900
+vs random player not lose: 86.5
+vs old model : 46.15384615384615
+episode_sum : 4950
+vs random player not lose: 87.25
+vs old model : 49.8567335243553
+episode_sum : 5000
+vs random player not lose: 86.75
+vs old model : 50.328947368421055
+episode_sum : 5050
+vs random player not lose: 82.0
+vs old model : 42.5531914893617
+episode_sum : 5100
+vs random player not lose: 89.25
+vs old model : 42.3780487804878
+episode_sum : 5150
+vs random player not lose: 85.0
+vs old model : 42.5
+episode_sum : 5200
+vs random player not lose: 87.25
+vs old model : 44.0251572327044
+episode_sum : 5250
+vs random player not lose: 83.25
+vs old model : 43.84384384384384
+episode_sum : 5300
+vs random player not lose: 85.0
+vs old model : 43.373493975903614
+episode_sum : 5350
+vs random player not lose: 85.0
+vs old model : 47.35202492211838
+episode_sum : 5400
+vs random player not lose: 85.5
+vs old model : 60.06600660066007
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__17gen.pht
+17genfinish time
+2019-02-03 22:54:30.048686
+17gen経過時間
+0:17:05.958676
+episode_sum : 5450
+vs random player not lose: 84.5
+vs old model : 43.47826086956522
+episode_sum : 5500
+vs random player not lose: 84.0
+vs old model : 48.231511254019296
+episode_sum : 5550
+vs random player not lose: 80.5
+vs old model : 45.51282051282051
+episode_sum : 5600
+vs random player not lose: 84.0
+vs old model : 49.00662251655629
+episode_sum : 5650
+vs random player not lose: 84.75
+vs old model : 37.735849056603776
+episode_sum : 5700
+vs random player not lose: 80.5
+vs old model : 56.22641509433962
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__18gen.pht
+18genfinish time
+2019-02-03 22:55:31.158737
+18gen経過時間
+0:18:07.068727
+episode_sum : 5750
+vs random player not lose: 87.5
+vs old model : 45.348837209302324
+episode_sum : 5800
+vs random player not lose: 89.0
+vs old model : 39.77272727272727
+episode_sum : 5850
+vs random player not lose: 87.0
+vs old model : 44.04332129963899
+episode_sum : 5900
+vs random player not lose: 85.5
+vs old model : 36.971830985915496
+episode_sum : 5950
+vs random player not lose: 87.75
+vs old model : 36.785714285714285
+episode_sum : 6000
+vs random player not lose: 85.5
+vs old model : 42.4812030075188
+episode_sum : 6050
+vs random player not lose: 85.25
+vs old model : 44.169611307420496
+episode_sum : 6100
+vs random player not lose: 88.0
+vs old model : 44.70198675496689
+episode_sum : 6150
+vs random player not lose: 88.5
+vs old model : 45.62043795620438
+episode_sum : 6200
+vs random player not lose: 83.5
+vs old model : 46.441947565543074
+episode_sum : 6250
+vs random player not lose: 87.75
+vs old model : 38.75432525951557
+episode_sum : 6300
+vs random player not lose: 87.0
+vs old model : 46.90909090909091
+episode_sum : 6350
+vs random player not lose: 88.5
+vs old model : 44.224422442244226
+episode_sum : 6400
+vs random player not lose: 85.0
+vs old model : 48.28767123287671
+episode_sum : 6450
+vs random player not lose: 89.25
+vs old model : 44.791666666666664
+episode_sum : 6500
+vs random player not lose: 86.25
+vs old model : 46.57534246575342
+episode_sum : 6550
+vs random player not lose: 87.25
+vs old model : 57.59717314487632
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__19gen.pht
+19genfinish time
+2019-02-03 22:58:26.568212
+19gen経過時間
+0:21:02.478202
+episode_sum : 6600
+vs random player not lose: 88.0
+vs old model : 50.9375
+episode_sum : 6650
+vs random player not lose: 88.75
+vs old model : 49.050632911392405
+episode_sum : 6700
+vs random player not lose: 88.25
+vs old model : 44.8051948051948
+episode_sum : 6750
+vs random player not lose: 88.75
+vs old model : 47.840531561461795
+episode_sum : 6800
+vs random player not lose: 87.75
+vs old model : 48.4472049689441
+episode_sum : 6850
+vs random player not lose: 89.5
+vs old model : 45.56962025316456
+episode_sum : 6900
+vs random player not lose: 88.0
+vs old model : 42.586750788643535
+episode_sum : 6950
+vs random player not lose: 87.75
+vs old model : 46.101694915254235
+episode_sum : 7000
+vs random player not lose: 88.25
+vs old model : 44.74576271186441
+episode_sum : 7050
+vs random player not lose: 86.5
+vs old model : 56.074766355140184
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__20gen.pht
+20genfinish time
+2019-02-03 23:00:09.154548
+20gen経過時間
+0:22:45.064538
+episode_sum : 7100
+vs random player not lose: 90.75
+vs old model : 50.0
+episode_sum : 7150
+vs random player not lose: 92.0
+vs old model : 53.65853658536585
+episode_sum : 7200
+vs random player not lose: 90.75
+vs old model : 48.301886792452834
+episode_sum : 7250
+vs random player not lose: 94.5
+vs old model : 49.61538461538461
+episode_sum : 7300
+vs random player not lose: 92.0
+vs old model : 50.0
+episode_sum : 7350
+vs random player not lose: 90.75
+vs old model : 51.34099616858238
+episode_sum : 7400
+vs random player not lose: 91.75
+vs old model : 55.43071161048689
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__21gen.pht
+21genfinish time
+2019-02-03 23:01:23.005933
+21gen経過時間
+0:23:58.915923
+episode_sum : 7450
+vs random player not lose: 86.75
+vs old model : 45.289855072463766
+episode_sum : 7500
+vs random player not lose: 91.0
+vs old model : 44.85294117647059
+episode_sum : 7550
+vs random player not lose: 90.0
+vs old model : 41.221374045801525
+episode_sum : 7600
+vs random player not lose: 87.25
+vs old model : 50.416666666666664
+episode_sum : 7650
+vs random player not lose: 88.25
+vs old model : 46.28975265017668
+episode_sum : 7700
+vs random player not lose: 86.25
+vs old model : 44.696969696969695
+episode_sum : 7750
+vs random player not lose: 89.5
+vs old model : 49.397590361445786
+episode_sum : 7800
+vs random player not lose: 91.0
+vs old model : 45.78754578754579
+episode_sum : 7850
+vs random player not lose: 86.25
+vs old model : 51.19047619047619
+episode_sum : 7900
+vs random player not lose: 89.75
+vs old model : 51.08695652173913
+episode_sum : 7950
+vs random player not lose: 89.5
+vs old model : 50.0
+episode_sum : 8000
+vs random player not lose: 89.5
+vs old model : 48.57142857142857
+episode_sum : 8050
+vs random player not lose: 88.75
+vs old model : 44.599303135888505
+episode_sum : 8100
+vs random player not lose: 88.0
+vs old model : 59.71223021582734
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__22gen.pht
+22genfinish time
+2019-02-03 23:03:54.252530
+22gen経過時間
+0:26:30.162520
+episode_sum : 8150
+vs random player not lose: 87.25
+vs old model : 47.73662551440329
+episode_sum : 8200
+vs random player not lose: 89.0
+vs old model : 57.02479338842975
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__23gen.pht
+23genfinish time
+2019-02-03 23:04:16.148988
+23gen経過時間
+0:26:52.058978
+episode_sum : 8250
+vs random player not lose: 91.5
+vs old model : 50.36764705882353
+episode_sum : 8300
+vs random player not lose: 91.0
+vs old model : 52.18978102189781
+episode_sum : 8350
+vs random player not lose: 90.0
+vs old model : 58.18181818181818
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__24gen.pht
+24genfinish time
+2019-02-03 23:04:48.363262
+24gen経過時間
+0:27:24.273252
+episode_sum : 8400
+vs random player not lose: 90.5
+vs old model : 39.166666666666664
+episode_sum : 8450
+vs random player not lose: 91.75
+vs old model : 40.0
+episode_sum : 8500
+vs random player not lose: 91.5
+vs old model : 45.65217391304348
+episode_sum : 8550
+vs random player not lose: 90.0
+vs old model : 52.208835341365464
+episode_sum : 8600
+vs random player not lose: 90.0
+vs old model : 53.05343511450382
+episode_sum : 8650
+vs random player not lose: 92.5
+vs old model : 49.60629921259842
+episode_sum : 8700
+vs random player not lose: 90.0
+vs old model : 40.0
+episode_sum : 8750
+vs random player not lose: 90.5
+vs old model : 49.62686567164179
+episode_sum : 8800
+vs random player not lose: 90.75
+vs old model : 46.721311475409834
+episode_sum : 8850
+vs random player not lose: 90.75
+vs old model : 48.41628959276018
+episode_sum : 8900
+vs random player not lose: 91.5
+vs old model : 52.707581227436826
+episode_sum : 8950
+vs random player not lose: 92.0
+vs old model : 39.91596638655462
+episode_sum : 9000
+vs random player not lose: 92.5
+vs old model : 47.22222222222222
+episode_sum : 9050
+vs random player not lose: 88.75
+vs old model : 44.72727272727273
+episode_sum : 9100
+vs random player not lose: 90.75
+vs old model : 45.089285714285715
+episode_sum : 9150
+vs random player not lose: 89.5
+vs old model : 45.945945945945944
+episode_sum : 9200
+vs random player not lose: 89.75
+vs old model : 46.0377358490566
+episode_sum : 9250
+vs random player not lose: 89.5
+vs old model : 50.55350553505535
+episode_sum : 9300
+vs random player not lose: 91.0
+vs old model : 57.64192139737991
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__25gen.pht
+25genfinish time
+2019-02-03 23:08:15.465054
+25gen経過時間
+0:30:51.375044
+episode_sum : 9350
+vs random player not lose: 86.0
+vs old model : 51.00401606425703
+episode_sum : 9400
+vs random player not lose: 82.5
+vs old model : 57.80590717299578
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__26gen.pht
+26genfinish time
+2019-02-03 23:08:37.596874
+26gen経過時間
+0:31:13.506864
+episode_sum : 9450
+vs random player not lose: 90.0
+vs old model : 53.10077519379845
+episode_sum : 9500
+vs random player not lose: 87.5
+vs old model : 50.19305019305019
+episode_sum : 9550
+vs random player not lose: 90.0
+vs old model : 53.49794238683128
+episode_sum : 9600
+vs random player not lose: 91.5
+vs old model : 51.89873417721519
+episode_sum : 9650
+vs random player not lose: 89.25
+vs old model : 50.2092050209205
+episode_sum : 9700
+vs random player not lose: 90.5
+vs old model : 55.50660792951542
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__27gen.pht
+27genfinish time
+2019-02-03 23:09:43.212228
+27gen経過時間
+0:32:19.122218
+episode_sum : 9750
+vs random player not lose: 94.25
+vs old model : 50.45871559633027
+episode_sum : 9800
+vs random player not lose: 92.0
+vs old model : 50.0
+episode_sum : 9850
+vs random player not lose: 92.5
+vs old model : 42.29249011857708
+episode_sum : 9900
+vs random player not lose: 92.25
+vs old model : 40.50632911392405
+episode_sum : 9950
+vs random player not lose: 91.75
+vs old model : 50.0
+episode_sum : 10000
+vs random player not lose: 88.5
+vs old model : 37.391304347826086
+episode_sum : 10050
+vs random player not lose: 94.5
+vs old model : 38.18181818181818
+episode_sum : 10100
+vs random player not lose: 92.75
+vs old model : 45.3125
+episode_sum : 10150
+vs random player not lose: 91.0
+vs old model : 39.05579399141631
+episode_sum : 10200
+vs random player not lose: 93.0
+vs old model : 43.27731092436975
+episode_sum : 10250
+vs random player not lose: 90.0
+vs old model : 54.618473895582326
+episode_sum : 10300
+vs random player not lose: 89.25
+vs old model : 43.62934362934363
+episode_sum : 10350
+vs random player not lose: 90.5
+vs old model : 43.95161290322581
+episode_sum : 10400
+vs random player not lose: 90.25
+vs old model : 49.35064935064935
+episode_sum : 10450
+vs random player not lose: 93.0
+vs old model : 53.97489539748954
+episode_sum : 10500
+vs random player not lose: 94.5
+vs old model : 44.03292181069959
+episode_sum : 10550
+vs random player not lose: 90.25
+vs old model : 49.59016393442623
+episode_sum : 10600
+vs random player not lose: 91.25
+vs old model : 54.424778761061944
+episode_sum : 10650
+vs random player not lose: 91.25
+vs old model : 48.706896551724135
+episode_sum : 10700
+vs random player not lose: 91.75
+vs old model : 48.38709677419355
+episode_sum : 10750
+vs random player not lose: 91.75
+vs old model : 47.21030042918455
+episode_sum : 10800
+vs random player not lose: 91.25
+vs old model : 55.73122529644269
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__28gen.pht
+28genfinish time
+2019-02-03 23:13:49.022141
+28gen経過時間
+0:36:24.932131
+episode_sum : 10850
+vs random player not lose: 91.25
+vs old model : 52.80898876404494
+episode_sum : 10900
+vs random player not lose: 91.25
+vs old model : 42.79835390946502
+episode_sum : 10950
+vs random player not lose: 93.0
+vs old model : 51.04602510460251
+episode_sum : 11000
+vs random player not lose: 92.0
+vs old model : 36.53846153846154
+episode_sum : 11050
+vs random player not lose: 92.75
+vs old model : 51.953125
+episode_sum : 11100
+vs random player not lose: 90.75
+vs old model : 49.438202247191015
+episode_sum : 11150
+vs random player not lose: 91.25
+vs old model : 47.61904761904762
+episode_sum : 11200
+vs random player not lose: 92.5
+vs old model : 50.0
+episode_sum : 11250
+vs random player not lose: 93.0
+vs old model : 51.8348623853211
+episode_sum : 11300
+vs random player not lose: 92.25
+vs old model : 54.54545454545455
+episode_sum : 11350
+vs random player not lose: 92.5
+vs old model : 48.319327731092436
+episode_sum : 11400
+vs random player not lose: 93.0
+vs old model : 47.05882352941177
+episode_sum : 11450
+vs random player not lose: 92.25
+vs old model : 48.97959183673469
+episode_sum : 11500
+vs random player not lose: 91.0
+vs old model : 46.69260700389105
+episode_sum : 11550
+vs random player not lose: 93.75
+vs old model : 50.0
+episode_sum : 11600
+vs random player not lose: 90.25
+vs old model : 56.30252100840336
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__29gen.pht
+29genfinish time
+2019-02-03 23:16:46.894895
+29gen経過時間
+0:39:22.804885
+episode_sum : 11650
+vs random player not lose: 91.5
+vs old model : 47.82608695652174
+episode_sum : 11700
+vs random player not lose: 88.75
+vs old model : 53.18352059925093
+episode_sum : 11750
+vs random player not lose: 90.0
+vs old model : 43.30708661417323
+episode_sum : 11800
+vs random player not lose: 87.75
+vs old model : 52.892561983471076
+episode_sum : 11850
+vs random player not lose: 89.0
+vs old model : 58.70445344129555
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__30gen.pht
+30genfinish time
+2019-02-03 23:17:42.782698
+30gen経過時間
+0:40:18.692688
+episode_sum : 11900
+vs random player not lose: 85.75
+vs old model : 43.347639484978544
+episode_sum : 11950
+vs random player not lose: 86.75
+vs old model : 42.4
+episode_sum : 12000
+vs random player not lose: 85.75
+vs old model : 47.84313725490196
+episode_sum : 12050
+vs random player not lose: 89.0
+vs old model : 50.40983606557377
+episode_sum : 12100
+vs random player not lose: 87.5
+vs old model : 43.30708661417323
+episode_sum : 12150
+vs random player not lose: 86.75
+vs old model : 45.76271186440678
+episode_sum : 12200
+vs random player not lose: 91.0
+vs old model : 49.808429118773944
+episode_sum : 12250
+vs random player not lose: 89.25
+vs old model : 44.72727272727273
+episode_sum : 12300
+vs random player not lose: 88.0
+vs old model : 44.44444444444444
+episode_sum : 12350
+vs random player not lose: 92.25
+vs old model : 53.164556962025316
+episode_sum : 12400
+vs random player not lose: 90.5
+vs old model : 41.2
+episode_sum : 12450
+vs random player not lose: 86.75
+vs old model : 42.97520661157025
+episode_sum : 12500
+vs random player not lose: 88.5
+vs old model : 40.57377049180328
+episode_sum : 12550
+vs random player not lose: 89.25
+vs old model : 44.89051094890511
+episode_sum : 12600
+vs random player not lose: 88.5
+vs old model : 41.935483870967744
+episode_sum : 12650
+vs random player not lose: 86.25
+vs old model : 40.57377049180328
+episode_sum : 12700
+vs random player not lose: 86.0
+vs old model : 51.293103448275865
+episode_sum : 12750
+vs random player not lose: 90.0
+vs old model : 43.29004329004329
+episode_sum : 12800
+vs random player not lose: 90.25
+vs old model : 43.66812227074236
+episode_sum : 12850
+vs random player not lose: 88.5
+vs old model : 39.130434782608695
+episode_sum : 12900
+vs random player not lose: 88.25
+vs old model : 45.833333333333336
+episode_sum : 12950
+vs random player not lose: 86.25
+vs old model : 46.81818181818182
+episode_sum : 13000
+vs random player not lose: 87.25
+vs old model : 34.97757847533632
+episode_sum : 13050
+vs random player not lose: 87.0
+vs old model : 44.01913875598086
+episode_sum : 13100
+vs random player not lose: 87.25
+vs old model : 52.12765957446808
+episode_sum : 13150
+vs random player not lose: 88.5
+vs old model : 43.77880184331797
+episode_sum : 13200
+vs random player not lose: 89.5
+vs old model : 42.99065420560748
+episode_sum : 13250
+vs random player not lose: 88.75
+vs old model : 45.52845528455285
+episode_sum : 13300
+vs random player not lose: 89.5
+vs old model : 44.60093896713615
+episode_sum : 13350
+vs random player not lose: 87.25
+vs old model : 53.051643192488264
+episode_sum : 13400
+vs random player not lose: 85.75
+vs old model : 44.888888888888886
+episode_sum : 13450
+vs random player not lose: 87.75
+vs old model : 50.0
+episode_sum : 13500
+vs random player not lose: 88.75
+vs old model : 47.59615384615385
+episode_sum : 13550
+vs random player not lose: 88.5
+vs old model : 55.5045871559633
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__31gen.pht
+31genfinish time
+2019-02-03 23:23:59.921731
+31gen経過時間
+0:46:35.831721
+episode_sum : 13600
+vs random player not lose: 89.75
+vs old model : 43.61702127659574
+episode_sum : 13650
+vs random player not lose: 88.5
+vs old model : 51.49700598802395
+episode_sum : 13700
+vs random player not lose: 90.0
+vs old model : 55.483870967741936
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__32gen.pht
+32genfinish time
+2019-02-03 23:24:33.990599
+32gen経過時間
+0:47:09.900589
+episode_sum : 13750
+vs random player not lose: 89.25
+vs old model : 50.72463768115942
+episode_sum : 13800
+vs random player not lose: 91.5
+vs old model : 43.11377245508982
+episode_sum : 13850
+vs random player not lose: 90.5
+vs old model : 53.06122448979592
+episode_sum : 13900
+vs random player not lose: 89.25
+vs old model : 54.14364640883978
+episode_sum : 13950
+vs random player not lose: 91.75
+vs old model : 54.02298850574713
+episode_sum : 14000
+vs random player not lose: 91.75
+vs old model : 68.34532374100719
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__33gen.pht
+33genfinish time
+2019-02-03 23:25:43.110945
+33gen経過時間
+0:48:19.020935
+episode_sum : 14050
+vs random player not lose: 95.5
+vs old model : 40.112994350282484
+episode_sum : 14100
+vs random player not lose: 93.0
+vs old model : 47.916666666666664
+episode_sum : 14150
+vs random player not lose: 94.0
+vs old model : 46.496815286624205
+episode_sum : 14200
+vs random player not lose: 91.25
+vs old model : 44.21768707482993
+episode_sum : 14250
+vs random player not lose: 95.5
+vs old model : 38.578680203045685
+episode_sum : 14300
+vs random player not lose: 93.25
+vs old model : 48.148148148148145
+episode_sum : 14350
+vs random player not lose: 95.75
+vs old model : 42.56410256410256
+episode_sum : 14400
+vs random player not lose: 93.75
+vs old model : 49.28909952606635
+episode_sum : 14450
+vs random player not lose: 95.5
+vs old model : 48.739495798319325
+episode_sum : 14500
+vs random player not lose: 95.75
+vs old model : 37.89473684210526
+episode_sum : 14550
+vs random player not lose: 95.25
+vs old model : 49.152542372881356
+episode_sum : 14600
+vs random player not lose: 95.75
+vs old model : 53.125
+episode_sum : 14650
+vs random player not lose: 92.5
+vs old model : 52.17391304347826
+episode_sum : 14700
+vs random player not lose: 91.75
+vs old model : 49.48979591836735
+episode_sum : 14750
+vs random player not lose: 93.0
+vs old model : 52.23880597014925
+episode_sum : 14800
+vs random player not lose: 93.5
+vs old model : 58.46153846153846
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__34gen.pht
+34genfinish time
+2019-02-03 23:28:42.297959
+34gen経過時間
+0:51:18.207949
+episode_sum : 14850
+vs random player not lose: 94.75
+vs old model : 43.29501915708812
+episode_sum : 14900
+vs random player not lose: 94.25
+vs old model : 57.207207207207205
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__35gen.pht
+35genfinish time
+2019-02-03 23:29:04.875909
+35gen経過時間
+0:51:40.785899
+episode_sum : 14950
+vs random player not lose: 94.25
+vs old model : 52.63157894736842
+episode_sum : 15000
+vs random player not lose: 94.0
+vs old model : 56.17977528089887
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__36gen.pht
+36genfinish time
+2019-02-03 23:29:27.259158
+36gen経過時間
+0:52:03.169148
+episode_sum : 15050
+vs random player not lose: 90.5
+vs old model : 43.421052631578945
+episode_sum : 15100
+vs random player not lose: 88.25
+vs old model : 47.465437788018434
+episode_sum : 15150
+vs random player not lose: 90.25
+vs old model : 54.0084388185654
+episode_sum : 15200
+vs random player not lose: 89.75
+vs old model : 45.65217391304348
+episode_sum : 15250
+vs random player not lose: 91.0
+vs old model : 44.29824561403509
+episode_sum : 15300
+vs random player not lose: 90.0
+vs old model : 55.70175438596491
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__37gen.pht
+37genfinish time
+2019-02-03 23:30:34.585903
+37gen経過時間
+0:53:10.495893
+episode_sum : 15350
+vs random player not lose: 95.5
+vs old model : 41.596638655462186
+episode_sum : 15400
+vs random player not lose: 94.5
+vs old model : 39.67611336032389
+episode_sum : 15450
+vs random player not lose: 95.5
+vs old model : 57.083333333333336
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__38gen.pht
+38genfinish time
+2019-02-03 23:31:08.217515
+38gen経過時間
+0:53:44.127505
+episode_sum : 15500
+vs random player not lose: 94.75
+vs old model : 41.15384615384615
+episode_sum : 15550
+vs random player not lose: 95.0
+vs old model : 45.173745173745175
+episode_sum : 15600
+vs random player not lose: 95.75
+vs old model : 49.81818181818182
+episode_sum : 15650
+vs random player not lose: 96.0
+vs old model : 43.56060606060606
+episode_sum : 15700
+vs random player not lose: 91.75
+vs old model : 52.52100840336134
+episode_sum : 15750
+vs random player not lose: 94.75
+vs old model : 57.261410788381745
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__39gen.pht
+39genfinish time
+2019-02-03 23:32:15.684939
+39gen経過時間
+0:54:51.594929
+episode_sum : 15800
+vs random player not lose: 93.25
+vs old model : 44.62809917355372
+episode_sum : 15850
+vs random player not lose: 94.0
+vs old model : 46.57534246575342
+episode_sum : 15900
+vs random player not lose: 94.5
+vs old model : 42.61603375527426
+episode_sum : 15950
+vs random player not lose: 94.0
+vs old model : 50.91743119266055
+episode_sum : 16000
+vs random player not lose: 93.0
+vs old model : 40.54054054054054
+episode_sum : 16050
+vs random player not lose: 95.5
+vs old model : 36.507936507936506
+episode_sum : 16100
+vs random player not lose: 94.25
+vs old model : 44.19642857142857
+episode_sum : 16150
+vs random player not lose: 93.25
+vs old model : 47.808764940239044
+episode_sum : 16200
+vs random player not lose: 93.25
+vs old model : 43.333333333333336
+episode_sum : 16250
+vs random player not lose: 94.25
+vs old model : 45.40816326530612
+episode_sum : 16300
+vs random player not lose: 95.75
+vs old model : 38.62660944206009
+episode_sum : 16350
+vs random player not lose: 93.25
+vs old model : 47.72727272727273
+episode_sum : 16400
+vs random player not lose: 91.5
+vs old model : 40.990990990990994
+episode_sum : 16450
+vs random player not lose: 93.5
+vs old model : 47.73662551440329
+episode_sum : 16500
+vs random player not lose: 93.25
+vs old model : 51.0548523206751
+episode_sum : 16550
+vs random player not lose: 92.75
+vs old model : 44.642857142857146
+episode_sum : 16600
+vs random player not lose: 93.25
+vs old model : 50.99601593625498
+episode_sum : 16650
+vs random player not lose: 93.5
+vs old model : 52.96803652968037
+episode_sum : 16700
+vs random player not lose: 95.75
+vs old model : 53.36538461538461
+episode_sum : 16750
+vs random player not lose: 93.5
+vs old model : 49.76958525345622
+episode_sum : 16800
+vs random player not lose: 94.25
+vs old model : 56.372549019607845
+モデル保存完了:models/model_cnn_01_31_dqn_var1_part11_20190203223722_/model_cnn_01_31_dqn_var1_part11_20190203223722__40gen.pht
+40genfinish time
+2019-02-03 23:36:13.171033
+40gen経過時間
+0:58:49.081023
+episode_sum : 16850
+vs random player not lose: 95.0
+vs old model : 47.161572052401745
+episode_sum : 16900
+vs random player not lose: 95.75
+vs old model : 43.08300395256917
+episode_sum : 16950
+vs random player not lose: 95.0
+vs old model : 45.34412955465587
+episode_sum : 17000
+vs random player not lose: 95.5
+vs old model : 48.13278008298755
+episode_sum : 17050
+vs random player not lose: 94.75
+vs old model : 47.234042553191486
+episode_sum : 17100
+vs random player not lose: 95.5
+vs old model : 47.73662551440329
+episode_sum : 17150
+vs random player not lose: 92.25
+vs old model : 50.40983606557377
+episode_sum : 17200
+vs random player not lose: 96.0
+vs old model : 38.15261044176707
+episode_sum : 17250
+vs random player not lose: 95.0
+vs old model : 44.95412844036697
+episode_sum : 17300
+vs random player not lose: 94.0
+vs old model : 47.5
+episode_sum : 17350
+vs random player not lose: 93.75
+vs old model : 48.16326530612245
+episode_sum : 17400
+vs random player not lose: 93.5
+vs old model : 46.52173913043478
+episode_sum : 17450
+vs random player not lose: 96.0
+vs old model : 45.493562231759654
+episode_sum : 17500
+vs random player not lose: 92.75
+vs old model : 40.08810572687225
+episode_sum : 17550
+vs random player not lose: 93.25
+vs old model : 39.15094339622642
+episode_sum : 17600
+vs random player not lose: 92.5
+vs old model : 35.622317596566525
+episode_sum : 17650
+vs random player not lose: 92.0
+vs old model : 47.465437788018434
+episode_sum : 17700
+vs random player not lose: 96.5
+vs old model : 41.2037037037037
+episode_sum : 17750
+vs random player not lose: 94.0
+vs old model : 43.37899543378995
+episode_sum : 17800
+vs random player not lose: 94.5
+vs old model : 43.18181818181818
+episode_sum : 17850
+vs random player not lose: 94.75
+vs old model : 46.009389671361504
+episode_sum : 17900
+vs random player not lose: 94.25
+vs old model : 43.90243902439025
+episode_sum : 17950
+vs random player not lose: 95.25
+vs old model : 48.148148148148145
+episode_sum : 18000
+vs random player not lose: 93.75
+vs old model : 48.9010989010989
+episode_sum : 18050
+vs random player not lose: 93.25
+vs old model : 36.81592039800995
+episode_sum : 18100
+vs random player not lose: 92.75
+vs old model : 44.54976303317535
+episode_sum : 18150
+vs random player not lose: 94.75
+vs old model : 42.20183486238532
+episode_sum : 18200
+vs random player not lose: 93.5
+vs old model : 42.857142857142854
+episode_sum : 18250
+vs random player not lose: 93.75
+vs old model : 36.016949152542374
+episode_sum : 18300
+vs random player not lose: 94.25
+vs old model : 41.58878504672897
+episode_sum : 18350
+vs random player not lose: 95.25
+vs old model : 46.79802955665025
+episode_sum : 18400
+vs random player not lose: 93.5
+vs old model : 36.254980079681275
+episode_sum : 18450
+vs random player not lose: 94.25
+vs old model : 33.88429752066116
+episode_sum : 18500
+vs random player not lose: 95.25
+vs old model : 40.0
+episode_sum : 18550
+vs random player not lose: 95.75
+vs old model : 42.14876033057851
+episode_sum : 18600
+vs random player not lose: 93.5
+vs old model : 34.06113537117904
+episode_sum : 18650
+vs random player not lose: 94.5
+vs old model : 31.932773109243698
+episode_sum : 18700
+vs random player not lose: 94.75
+vs old model : 38.70967741935484
+episode_sum : 18750
+vs random player not lose: 94.75
+vs old model : 46.54377880184332
+episode_sum : 18800
+vs random player not lose: 93.0
+vs old model : 38.22222222222222
+episode_sum : 18850
+vs random player not lose: 95.25
+vs old model : 38.36206896551724
+episode_sum : 18900
+vs random player not lose: 96.25
+vs old model : 36.86440677966102
+episode_sum : 18950
+vs random player not lose: 94.75
+vs old model : 33.47639484978541
+episode_sum : 19000
+vs random player not lose: 92.25
+vs old model : 37.88546255506608
+episode_sum : 19050
+vs random player not lose: 93.75
+vs old model : 33.63228699551569
+episode_sum : 19100
+vs random player not lose: 94.75
+vs old model : 44.11764705882353
+episode_sum : 19150
+vs random player not lose: 95.75
+vs old model : 38.24884792626728
+episode_sum : 19200
+vs random player not lose: 93.5
+vs old model : 35.80786026200873
+episode_sum : 19250
+vs random player not lose: 96.25
+vs old model : 47.88135593220339
+episode_sum : 19300
+vs random player not lose: 95.0
+vs old model : 46.21848739495798
+episode_sum : 19350
+vs random player not lose: 92.25
+vs old model : 46.82539682539682
+episode_sum : 19400
+vs random player not lose: 92.75
+vs old model : 46.86192468619247
+episode_sum : 19450
+vs random player not lose: 93.25
+vs old model : 40.36697247706422
+episode_sum : 19500
+vs random player not lose: 93.5
+vs old model : 47.234042553191486
+episode_sum : 19550
+vs random player not lose: 92.75
+vs old model : 47.16981132075472
+episode_sum : 19600
+vs random player not lose: 92.75
+vs old model : 43.09623430962343
+episode_sum : 19650
+vs random player not lose: 95.0
+vs old model : 48.333333333333336
+episode_sum : 19700
+vs random player not lose: 95.75
+vs old model : 39.91416309012875
+episode_sum : 19750
+vs random player not lose: 94.25
+vs old model : 45.06437768240343
+episode_sum : 19800
+vs random player not lose: 95.0
+vs old model : 40.17857142857143
+episode_sum : 19850
+vs random player not lose: 95.0
+vs old model : 44.0
+episode_sum : 19900
+vs random player not lose: 95.0
+vs old model : 42.4
+episode_sum : 19950
+vs random player not lose: 94.0
+vs old model : 42.8
+episode_sum : 20000
+vs random player not lose: 94.0
+vs old model : 37.95918367346939
+episode_sum : 20050
+vs random player not lose: 94.5
+vs old model : 39.82683982683983
+episode_sum : 20100
+vs random player not lose: 95.0
+vs old model : 50.0
+episode_sum : 20150
+vs random player not lose: 92.5
+vs old model : 43.032786885245905
+episode_sum : 20200
+vs random player not lose: 95.0
+vs old model : 41.0377358490566
+episode_sum : 20250
+vs random player not lose: 94.25
+vs old model : 39.3574297188755
+episode_sum : 20300
+vs random player not lose: 95.25
+vs old model : 43.91304347826087
+episode_sum : 20350
+vs random player not lose: 95.25
+vs old model : 44.35146443514645
+episode_sum : 20400
+vs random player not lose: 94.5
+vs old model : 36.93693693693694
+episode_sum : 20450
+vs random player not lose: 93.0
+vs old model : 42.622950819672134
+episode_sum : 20500
+vs random player not lose: 94.0
+vs old model : 30.327868852459016
+episode_sum : 20550
+vs random player not lose: 95.5
+vs old model : 34.81481481481482
+episode_sum : 20600
+vs random player not lose: 95.0
+vs old model : 37.35408560311284
+episode_sum : 20650
+vs random player not lose: 94.25
+vs old model : 42.248062015503876
+episode_sum : 20700
+vs random player not lose: 91.0
+vs old model : 41.5929203539823
+episode_sum : 20750
+vs random player not lose: 95.0
+vs old model : 42.32365145228216
+episode_sum : 20800
+vs random player not lose: 95.0
+vs old model : 39.70037453183521
+episode_sum : 20850
+vs random player not lose: 90.0
+vs old model : 34.645669291338585
+episode_sum : 20900
+vs random player not lose: 95.25
+vs old model : 36.134453781512605
+episode_sum : 20950
+vs random player not lose: 94.0
+vs old model : 43.190661478599225
+episode_sum : 21000
+vs random player not lose: 92.75
+vs old model : 40.725806451612904
+episode_sum : 21050
+vs random player not lose: 94.0
+vs old model : 38.70967741935484
+episode_sum : 21100
+vs random player not lose: 93.5
+vs old model : 33.333333333333336
+episode_sum : 21150
+vs random player not lose: 93.75
+vs old model : 39.41908713692946
+episode_sum : 21200
+vs random player not lose: 92.25
+vs old model : 38.39662447257384
+episode_sum : 21250
+vs random player not lose: 96.0
+vs old model : 34.166666666666664
+episode_sum : 21300
+vs random player not lose: 94.25
+vs old model : 36.734693877551024
+episode_sum : 21350
+vs random player not lose: 93.75
+vs old model : 27.397260273972602
+episode_sum : 21400
+vs random player not lose: 96.25
+vs old model : 43.54838709677419
+episode_sum : 21450
+vs random player not lose: 95.25
+vs old model : 34.03361344537815
+episode_sum : 21500
+vs random player not lose: 94.75
+vs old model : 38.07531380753138
+episode_sum : 21550
+vs random player not lose: 95.25
+vs old model : 39.301310043668124
+episode_sum : 21600
+vs random player not lose: 93.75
+vs old model : 40.42553191489362
+episode_sum : 21650
+vs random player not lose: 93.25
+vs old model : 40.17467248908297
+episode_sum : 21700
+vs random player not lose: 94.0
+vs old model : 38.61003861003861
+episode_sum : 21750
+vs random player not lose: 95.25
+vs old model : 45.714285714285715
+episode_sum : 21800
+vs random player not lose: 93.25
+vs old model : 45.1063829787234
+episode_sum : 21850
+vs random player not lose: 93.75
+vs old model : 42.34234234234234
+episode_sum : 21900
+vs random player not lose: 92.75
+vs old model : 44.827586206896555
+episode_sum : 21950
+vs random player not lose: 92.25
+vs old model : 36.283185840707965
+episode_sum : 22000
+vs random player not lose: 96.5
+vs old model : 43.82470119521912
+episode_sum : 22050
+vs random player not lose: 94.75
+vs old model : 38.11659192825112
+episode_sum : 22100
+vs random player not lose: 95.25
+vs old model : 47.80487804878049
+episode_sum : 22150
+vs random player not lose: 91.5
+vs old model : 40.816326530612244
+episode_sum : 22200
+vs random player not lose: 95.75
+vs old model : 50.45871559633027
+episode_sum : 22250
+vs random player not lose: 93.5
+vs old model : 41.0958904109589
+episode_sum : 22300
+vs random player not lose: 95.5
+vs old model : 47.22222222222222
+episode_sum : 22350
+vs random player not lose: 94.0
+vs old model : 46.05263157894737
+episode_sum : 22400
+vs random player not lose: 92.5
+vs old model : 46.875
+episode_sum : 22450
+vs random player not lose: 93.5
+vs old model : 46.15384615384615
+episode_sum : 22500
+vs random player not lose: 93.75
+vs old model : 42.61603375527426
+episode_sum : 22550
+vs random player not lose: 93.0
+vs old model : 47.22222222222222
+episode_sum : 22600
+vs random player not lose: 91.75
+vs old model : 44.5945945945946
+episode_sum : 22650
+vs random player not lose: 94.5
+vs old model : 41.2
+episode_sum : 22700
+vs random player not lose: 93.0
+vs old model : 41.84100418410042
+episode_sum : 22750
+vs random player not lose: 93.75
+vs old model : 42.35807860262009
+episode_sum : 22800
+vs random player not lose: 92.25
+vs old model : 35.22267206477733
+episode_sum : 22850
+vs random player not lose: 93.75
+vs old model : 39.583333333333336
+episode_sum : 22900
+vs random player not lose: 95.5
+vs old model : 41.07883817427386
+episode_sum : 22950
+vs random player not lose: 94.5
+vs old model : 39.75903614457831
+episode_sum : 23000
+vs random player not lose: 95.75
+vs old model : 37.295081967213115
+episode_sum : 23050
+vs random player not lose: 95.0
+vs old model : 45.60669456066945
+episode_sum : 23100
+vs random player not lose: 94.75
+vs old model : 43.10344827586207
+episode_sum : 23150
+vs random player not lose: 95.25
+vs old model : 37.87234042553192
+episode_sum : 23200
+vs random player not lose: 94.25
+vs old model : 45.6140350877193
+episode_sum : 23250
+vs random player not lose: 95.0
+vs old model : 33.19838056680162
+episode_sum : 23300
+vs random player not lose: 93.5
+vs old model : 38.288288288288285
+episode_sum : 23350
+vs random player not lose: 94.25
+vs old model : 43.96551724137931
+episode_sum : 23400
+vs random player not lose: 93.5
+vs old model : 36.40167364016737
+episode_sum : 23450
+vs random player not lose: 95.0
+vs old model : 43.47826086956522
+episode_sum : 23500
+vs random player not lose: 95.0
+vs old model : 34.54545454545455
+episode_sum : 23550
+vs random player not lose: 94.25
+vs old model : 37.94642857142857
+episode_sum : 23600
+vs random player not lose: 94.0
+vs old model : 40.67796610169491
+episode_sum : 23650
+vs random player not lose: 94.25
+vs old model : 41.517857142857146
+episode_sum : 23700
+vs random player not lose: 95.5
+vs old model : 39.42307692307692
+episode_sum : 23750
+vs random player not lose: 95.25
+vs old model : 46.32034632034632
+episode_sum : 23800
+vs random player not lose: 95.75
+vs old model : 41.52542372881356
+episode_sum : 23850
+vs random player not lose: 94.25
+vs old model : 42.608695652173914
+episode_sum : 23900
+vs random player not lose: 94.25
+vs old model : 37.17948717948718
+episode_sum : 23950
+vs random player not lose: 91.75
+vs old model : 39.37007874015748
+episode_sum : 24000
+vs random player not lose: 96.0
+vs old model : 36.81818181818182
+episode_sum : 24050
+vs random player not lose: 94.75
+vs old model : 31.53526970954357
+episode_sum : 24100
+vs random player not lose: 93.0
+vs old model : 39.38053097345133
+episode_sum : 24150
+vs random player not lose: 92.75
+vs old model : 42.71356783919598
+episode_sum : 24200
+vs random player not lose: 94.5
+vs old model : 47.391304347826086
+episode_sum : 24250
+vs random player not lose: 96.5
+vs old model : 35.1931330472103
+episode_sum : 24300
+vs random player not lose: 95.25
+vs old model : 44.10480349344978
+episode_sum : 24350
+vs random player not lose: 95.0
+vs old model : 44.63519313304721
+episode_sum : 24400
+vs random player not lose: 93.5
+vs old model : 38.69565217391305
+episode_sum : 24450
+vs random player not lose: 94.5
+vs old model : 33.02325581395349
+episode_sum : 24500
+vs random player not lose: 95.5
+vs old model : 39.54545454545455
+episode_sum : 24550
+vs random player not lose: 95.75
+vs old model : 40.990990990990994
+episode_sum : 24600
+vs random player not lose: 93.75
+vs old model : 40.74074074074074
+episode_sum : 24650
+vs random player not lose: 95.0
+vs old model : 33.63228699551569
+episode_sum : 24700
+vs random player not lose: 95.25
+vs old model : 37.55868544600939
+episode_sum : 24750
+vs random player not lose: 92.25
+vs old model : 46.02510460251046
+episode_sum : 24800
+vs random player not lose: 93.25
+vs old model : 43.04347826086956
+episode_sum : 24850
+vs random player not lose: 93.0
+vs old model : 42.0
+episode_sum : 24900
+vs random player not lose: 94.25
+vs old model : 41.964285714285715
+episode_sum : 24950
+vs random player not lose: 95.75
+vs old model : 44.58874458874459
+episode_sum : 25000
+vs random player not lose: 95.5
+vs old model : 40.182648401826484
+episode_sum : 25050
+vs random player not lose: 93.5
+vs old model : 44.0
+episode_sum : 25100
+vs random player not lose: 92.25
+vs old model : 45.70135746606335
+episode_sum : 25150
+vs random player not lose: 93.75
+vs old model : 34.710743801652896
+episode_sum : 25200
+vs random player not lose: 94.0
+vs old model : 39.05579399141631
+episode_sum : 25250
+vs random player not lose: 93.75
+vs old model : 40.70796460176991
+episode_sum : 25300
+vs random player not lose: 95.75
+vs old model : 40.692640692640694
+episode_sum : 25350
+vs random player not lose: 93.75
+vs old model : 46.04651162790697
+episode_sum : 25400
+vs random player not lose: 94.0
+vs old model : 39.03508771929825
+episode_sum : 25450
+vs random player not lose: 94.0
+vs old model : 39.31623931623932
+episode_sum : 25500
+vs random player not lose: 96.0
+vs old model : 38.65546218487395
+episode_sum : 25550
+vs random player not lose: 94.75
+vs old model : 39.015151515151516
+episode_sum : 25600
+vs random player not lose: 92.5
+vs old model : 39.53488372093023
+episode_sum : 25650
+vs random player not lose: 96.5
+vs old model : 41.48471615720524
+episode_sum : 25700
+vs random player not lose: 93.75
+vs old model : 39.66244725738397
+episode_sum : 25750
+vs random player not lose: 93.75
+vs old model : 41.70040485829959
+episode_sum : 25800
+vs random player not lose: 93.5
+vs old model : 41.49377593360996
+episode_sum : 25850
+vs random player not lose: 94.0
+vs old model : 43.77510040160642
+episode_sum : 25900
+vs random player not lose: 95.75
+vs old model : 40.1673640167364
+episode_sum : 25950
+vs random player not lose: 94.5
+vs old model : 38.26086956521739
+episode_sum : 26000
+vs random player not lose: 94.75
+vs old model : 38.723404255319146
+episode_sum : 26050
+vs random player not lose: 96.25
+vs old model : 45.887445887445885
+episode_sum : 26100
+vs random player not lose: 95.5
+vs old model : 51.10132158590309
+episode_sum : 26150
+vs random player not lose: 93.25
+vs old model : 38.61788617886179
+episode_sum : 26200
+vs random player not lose: 93.5
+vs old model : 43.983402489626556
+episode_sum : 26250
+vs random player not lose: 95.5
+vs old model : 40.44444444444444
+episode_sum : 26300
+vs random player not lose: 94.5
+vs old model : 41.201716738197426
+episode_sum : 26350
+vs random player not lose: 92.75
+vs old model : 48.582995951417004
+episode_sum : 26400
+vs random player not lose: 94.25
+vs old model : 43.75
+episode_sum : 26450
+vs random player not lose: 94.75
+vs old model : 40.66390041493776
+episode_sum : 26500
+vs random player not lose: 95.5
+vs old model : 43.51464435146443
+episode_sum : 26550
+vs random player not lose: 96.25
+vs old model : 39.6078431372549
+episode_sum : 26600
+vs random player not lose: 93.75
+vs old model : 34.166666666666664
+episode_sum : 26650
+vs random player not lose: 92.75
+vs old model : 32.17054263565891
+episode_sum : 26700
+vs random player not lose: 94.0
+vs old model : 31.645569620253166
+episode_sum : 26750
+vs random player not lose: 94.75
+vs old model : 36.170212765957444
+episode_sum : 26800
+vs random player not lose: 93.25
+vs old model : 34.285714285714285
+episode_sum : 26850
+vs random player not lose: 95.5
+vs old model : 43.644067796610166
+episode_sum : 26900
+vs random player not lose: 92.25
+vs old model : 42.19409282700422
+episode_sum : 26950
+vs random player not lose: 95.75
+vs old model : 33.333333333333336
+episode_sum : 27000
+vs random player not lose: 95.75
+vs old model : 36.0655737704918
+episode_sum : 27050
+vs random player not lose: 94.5
+vs old model : 37.84860557768924
+episode_sum : 27100
+vs random player not lose: 94.75
+vs old model : 41.85022026431718
+episode_sum : 27150
+vs random player not lose: 96.0
+vs old model : 34.97942386831276
+episode_sum : 27200
+vs random player not lose: 93.5
+vs old model : 32.20338983050848
+episode_sum : 27250
+vs random player not lose: 95.25
+vs old model : 37.11790393013101
+episode_sum : 27300
+vs random player not lose: 95.25
+vs old model : 40.772532188841204
+episode_sum : 27350
+vs random player not lose: 94.75
+vs old model : 36.8421052631579
+episode_sum : 27400
+vs random player not lose: 95.75
+vs old model : 30.416666666666668
+episode_sum : 27450
+vs random player not lose: 96.25
+vs old model : 33.47107438016529
+episode_sum : 27500
+vs random player not lose: 94.25
+vs old model : 36.283185840707965
+episode_sum : 27550
+vs random player not lose: 94.0
+vs old model : 35.14644351464435
+episode_sum : 27600
+vs random player not lose: 93.75
+vs old model : 35.08064516129032
+episode_sum : 27650
+vs random player not lose: 92.5
+vs old model : 31.53153153153153
+episode_sum : 27700
+vs random player not lose: 94.5
+vs old model : 41.964285714285715
+episode_sum : 27750
+vs random player not lose: 94.5
+vs old model : 35.684647302904565
+episode_sum : 27800
+vs random player not lose: 94.5
+vs old model : 44.54148471615721
+episode_sum : 27850
+vs random player not lose: 93.75
+vs old model : 36.324786324786324
+episode_sum : 27900
+vs random player not lose: 94.75
+vs old model : 41.88034188034188
+episode_sum : 27950
+vs random player not lose: 92.0
+vs old model : 43.98148148148148
+episode_sum : 28000
+vs random player not lose: 93.75
+vs old model : 35.78431372549019
+episode_sum : 28050
+vs random player not lose: 95.5
+vs old model : 36.86868686868687
+episode_sum : 28100
+vs random player not lose: 94.75
+vs old model : 41.78403755868545
+episode_sum : 28150
+vs random player not lose: 92.0
+vs old model : 43.1924882629108
+episode_sum : 28200
+vs random player not lose: 93.25
+vs old model : 37.219730941704036
+episode_sum : 28250
+vs random player not lose: 92.75
+vs old model : 41.85022026431718
+episode_sum : 28300
+vs random player not lose: 93.5
+vs old model : 36.75213675213675
+episode_sum : 28350
+vs random player not lose: 93.25
+vs old model : 41.361256544502616
+episode_sum : 28400
+vs random player not lose: 96.25
+vs old model : 45.575221238938056
+episode_sum : 28450
+vs random player not lose: 93.75
+vs old model : 36.206896551724135
+episode_sum : 28500
+vs random player not lose: 93.5
+vs old model : 35.585585585585584
+episode_sum : 28550
+vs random player not lose: 92.5
+vs old model : 39.55555555555556
+episode_sum : 28600
+vs random player not lose: 95.25
+vs old model : 35.950413223140494
+episode_sum : 28650
+vs random player not lose: 94.5
+vs old model : 33.333333333333336
+episode_sum : 28700
+vs random player not lose: 94.0
+vs old model : 40.95238095238095
+episode_sum : 28750
+vs random player not lose: 93.75
+vs old model : 37.735849056603776
+episode_sum : 28800
+vs random player not lose: 93.5
+vs old model : 36.40350877192982
+episode_sum : 28850
+vs random player not lose: 93.25
+vs old model : 36.05150214592275
+episode_sum : 28900
+vs random player not lose: 93.0
+vs old model : 38.20754716981132
+episode_sum : 28950
+vs random player not lose: 92.5
+vs old model : 41.42857142857143
+episode_sum : 29000
+vs random player not lose: 93.5
+vs old model : 41.80327868852459
+episode_sum : 29050
+vs random player not lose: 94.5
+vs old model : 40.0
+episode_sum : 29100
+vs random player not lose: 94.75
+vs old model : 34.25196850393701
+episode_sum : 29150
+vs random player not lose: 92.5
+vs old model : 41.07883817427386
+episode_sum : 29200
+vs random player not lose: 92.25
+vs old model : 37.93103448275862
+episode_sum : 29250
+vs random player not lose: 92.75
+vs old model : 40.55299539170507
+episode_sum : 29300
+vs random player not lose: 94.25
+vs old model : 35.833333333333336
+episode_sum : 29350
+vs random player not lose: 94.0
+vs old model : 41.42259414225941
+episode_sum : 29400
+vs random player not lose: 92.0
+vs old model : 45.0
+episode_sum : 29450
+vs random player not lose: 94.25
+vs old model : 30.94170403587444
+episode_sum : 29500
+vs random player not lose: 93.0
+vs old model : 37.5
+episode_sum : 29550
+vs random player not lose: 94.25
+vs old model : 39.83402489626556
+episode_sum : 29600
+vs random player not lose: 94.0
+vs old model : 39.6551724137931
+episode_sum : 29650
+vs random player not lose: 92.5
+vs old model : 33.1858407079646
+episode_sum : 29700
+vs random player not lose: 95.0
+vs old model : 37.096774193548384
+episode_sum : 29750
+vs random player not lose: 94.5
+vs old model : 40.598290598290596
+episode_sum : 29800
+vs random player not lose: 92.75
+vs old model : 30.666666666666668
+episode_sum : 29850
+vs random player not lose: 94.25
+vs old model : 38.11659192825112
+episode_sum : 29900
+vs random player not lose: 92.25
+vs old model : 41.36546184738956
+episode_sum : 29950
+vs random player not lose: 94.25
+vs old model : 35.13513513513514
+episode_sum : 30000
+vs random player not lose: 94.5
+vs old model : 35.714285714285715
+episode_sum : 30050
+vs random player not lose: 94.75
+vs old model : 32.142857142857146
+episode_sum : 30100
+vs random player not lose: 92.25
+vs old model : 36.0
+episode_sum : 30150
+vs random player not lose: 95.0
+vs old model : 40.182648401826484
+episode_sum : 30200
+vs random player not lose: 93.25
+vs old model : 39.67611336032389
+episode_sum : 30250
+vs random player not lose: 92.0
+vs old model : 28.80658436213992
+episode_sum : 30300
+vs random player not lose: 93.5
+vs old model : 35.45454545454545
+episode_sum : 30350
+vs random player not lose: 95.75
+vs old model : 37.6425855513308
+episode_sum : 30400
+vs random player not lose: 93.25
+vs old model : 36.63793103448276
+episode_sum : 30450
+vs random player not lose: 95.0
+vs old model : 37.5968992248062
+episode_sum : 30500
+vs random player not lose: 94.75
+vs old model : 41.05691056910569
+episode_sum : 30550
+vs random player not lose: 96.0
+vs old model : 38.58921161825726
+episode_sum : 30600
+vs random player not lose: 95.0
+vs old model : 32.231404958677686
+episode_sum : 30650
+vs random player not lose: 94.25
+vs old model : 35.68281938325991
+episode_sum : 30700
+vs random player not lose: 94.25
+vs old model : 46.42857142857143
+episode_sum : 30750
+vs random player not lose: 95.25
+vs old model : 37.121212121212125
+episode_sum : 30800
+vs random player not lose: 95.0
+vs old model : 34.20074349442379
+episode_sum : 30850
+vs random player not lose: 94.75
+vs old model : 34.66135458167331
+episode_sum : 30900
+vs random player not lose: 93.5
+vs old model : 38.306451612903224
+episode_sum : 30950
+vs random player not lose: 93.75
+vs old model : 34.29752066115702
+episode_sum : 31000
+vs random player not lose: 90.5
+vs old model : 39.7489539748954
+episode_sum : 31050
+vs random player not lose: 94.25
+vs old model : 36.12334801762115
+episode_sum : 31100
+vs random player not lose: 95.0
+vs old model : 31.640625
+episode_sum : 31150
+vs random player not lose: 96.5
+vs old model : 43.56846473029046
+episode_sum : 31200
+vs random player not lose: 93.0
+vs old model : 38.297872340425535
+episode_sum : 31250
+vs random player not lose: 92.0
+vs old model : 38.22393822393823
+episode_sum : 31300
+vs random player not lose: 94.0
+vs old model : 39.57446808510638
+episode_sum : 31350
+vs random player not lose: 94.5
+vs old model : 35.65217391304348
+episode_sum : 31400
+vs random player not lose: 94.75
+vs old model : 44.71544715447155
+episode_sum : 31450
+vs random player not lose: 93.75
+vs old model : 39.91769547325103
+episode_sum : 31500
+vs random player not lose: 95.5
+vs old model : 38.23529411764706
+episode_sum : 31550
+vs random player not lose: 94.0
+vs old model : 36.758893280632414
+episode_sum : 31600
+vs random player not lose: 92.75
+vs old model : 41.12903225806452
+episode_sum : 31650
+vs random player not lose: 91.25
+vs old model : 38.75968992248062
+episode_sum : 31700
+vs random player not lose: 94.5
+vs old model : 40.65040650406504
+episode_sum : 31750
+vs random player not lose: 94.25
+vs old model : 38.91213389121339
+episode_sum : 31800
+vs random player not lose: 93.5
+vs old model : 36.51452282157676
+episode_sum : 31850
+vs random player not lose: 94.5
+vs old model : 39.34426229508197
+episode_sum : 31900
+vs random player not lose: 93.25
+vs old model : 38.333333333333336
+episode_sum : 31950
+vs random player not lose: 94.75
+vs old model : 40.17094017094017
+episode_sum : 32000
+vs random player not lose: 96.0
+vs old model : 42.21311475409836
+episode_sum : 32050
+vs random player not lose: 93.25
+vs old model : 39.39393939393939
+episode_sum : 32100
+vs random player not lose: 93.5
+vs old model : 38.70967741935484
+episode_sum : 32150
+vs random player not lose: 95.5
+vs old model : 42.46031746031746
+episode_sum : 32200
+vs random player not lose: 96.75
+vs old model : 37.89954337899543
+episode_sum : 32250
+vs random player not lose: 93.75
+vs old model : 39.91769547325103
+episode_sum : 32300
+vs random player not lose: 90.75
+vs old model : 40.833333333333336
+episode_sum : 32350
+vs random player not lose: 93.75
+vs old model : 35.6
+episode_sum : 32400
+vs random player not lose: 94.5
+vs old model : 42.56198347107438
+episode_sum : 32450
+vs random player not lose: 94.0
+vs old model : 39.91596638655462
+episode_sum : 32500
+vs random player not lose: 95.5
+vs old model : 43.29004329004329
+episode_sum : 32550
+vs random player not lose: 92.5
+vs old model : 39.91596638655462
+episode_sum : 32600
+vs random player not lose: 93.75
+vs old model : 40.46692607003891
+episode_sum : 32650
+vs random player not lose: 93.0
+vs old model : 43.644067796610166
+episode_sum : 32700
+vs random player not lose: 94.0
+vs old model : 39.67611336032389
+episode_sum : 32750
+vs random player not lose: 93.0
+vs old model : 39.8406374501992
+episode_sum : 32800
+vs random player not lose: 93.75
+vs old model : 39.6078431372549
+episode_sum : 32850
+vs random player not lose: 93.75
+vs old model : 41.015625
+episode_sum : 32900
+vs random player not lose: 95.25
+vs old model : 36.62551440329218
+episode_sum : 32950
+vs random player not lose: 94.5
+vs old model : 37.38317757009346
+episode_sum : 33000
+vs random player not lose: 92.75
+vs old model : 40.32258064516129
+episode_sum : 33050
+vs random player not lose: 93.5
+vs old model : 35.37117903930131
+episode_sum : 33100
+vs random player not lose: 95.0
+vs old model : 45.0
+episode_sum : 33150
+vs random player not lose: 95.0
+vs old model : 39.166666666666664
+episode_sum : 33200
+vs random player not lose: 94.0
+vs old model : 40.625
+episode_sum : 33250
+vs random player not lose: 93.75
+vs old model : 43.673469387755105
+episode_sum : 33300
+vs random player not lose: 96.0
+vs old model : 41.42259414225941
+episode_sum : 33350
+vs random player not lose: 94.75
+vs old model : 38.26086956521739
+episode_sum : 33400
+vs random player not lose: 92.75
+vs old model : 41.12903225806452
+episode_sum : 33450
+vs random player not lose: 94.25
+vs old model : 44.680851063829785
+episode_sum : 33500
+vs random player not lose: 94.5
+vs old model : 45.52845528455285
+episode_sum : 33550
+vs random player not lose: 95.0
+vs old model : 33.85826771653543
+episode_sum : 33600
+vs random player not lose: 94.5
+vs old model : 42.79835390946502
+episode_sum : 33650
+vs random player not lose: 93.0
+vs old model : 38.490566037735846
+episode_sum : 33700
+vs random player not lose: 93.75
+vs old model : 40.08097165991903
+episode_sum : 33750
+vs random player not lose: 94.25
+vs old model : 40.0
+episode_sum : 33800
+vs random player not lose: 94.25
+vs old model : 38.372093023255815
+episode_sum : 33850
+vs random player not lose: 93.75
+vs old model : 41.666666666666664
+episode_sum : 33900
+vs random player not lose: 96.0
+vs old model : 43.04347826086956
+episode_sum : 33950
+vs random player not lose: 94.5
+vs old model : 42.918454935622314
+episode_sum : 34000
+vs random player not lose: 93.75
+vs old model : 44.81327800829875
+episode_sum : 34050
+vs random player not lose: 94.75
+vs old model : 46.12068965517241
+episode_sum : 34100
+vs random player not lose: 95.75
+vs old model : 38.983050847457626
+episode_sum : 34150
+vs random player not lose: 95.5
+vs old model : 40.44444444444444
+episode_sum : 34200
+vs random player not lose: 94.5
+vs old model : 41.35021097046413
+episode_sum : 34250
+vs random player not lose: 94.0
+vs old model : 38.888888888888886
+episode_sum : 34300
+vs random player not lose: 93.5
+vs old model : 44.49339207048458
+episode_sum : 34350
+vs random player not lose: 94.75
+vs old model : 41.42259414225941
+episode_sum : 34400
+vs random player not lose: 92.5
+vs old model : 44.30379746835443
+episode_sum : 34450
+vs random player not lose: 93.25
+vs old model : 44.89795918367347
+episode_sum : 34500
+vs random player not lose: 94.25
+vs old model : 41.30434782608695
+episode_sum : 34550
+vs random player not lose: 94.0
+vs old model : 43.08300395256917
+episode_sum : 34600
+vs random player not lose: 95.5
+vs old model : 38.46153846153846
+episode_sum : 34650
+vs random player not lose: 94.25
+vs old model : 43.24324324324324
+episode_sum : 34700
+vs random player not lose: 93.5
+vs old model : 39.48497854077253
+episode_sum : 34750
+vs random player not lose: 92.5
+vs old model : 46.69421487603306
+episode_sum : 34800
+vs random player not lose: 95.0
+vs old model : 45.9915611814346
+episode_sum : 34850
+vs random player not lose: 95.0
+vs old model : 44.44444444444444
+episode_sum : 34900
+vs random player not lose: 92.5
+vs old model : 35.84905660377358
+episode_sum : 34950
+vs random player not lose: 93.75
+vs old model : 38.56502242152467
+episode_sum : 35000
+vs random player not lose: 93.5
+vs old model : 40.963855421686745
+episode_sum : 35050
+vs random player not lose: 94.75
+vs old model : 39.09090909090909
+episode_sum : 35100
+vs random player not lose: 95.5
+vs old model : 42.3728813559322
+episode_sum : 35150
+vs random player not lose: 95.5
+vs old model : 36.015325670498086
+episode_sum : 35200
+vs random player not lose: 94.75
+vs old model : 39.91416309012875
+episode_sum : 35250
+vs random player not lose: 93.25
+vs old model : 45.34412955465587
+episode_sum : 35300
+vs random player not lose: 94.0
+vs old model : 37.39495798319328
+episode_sum : 35350
+vs random player not lose: 94.5
+vs old model : 41.150442477876105
+episode_sum : 35400
+vs random player not lose: 93.75
+vs old model : 41.276595744680854
+episode_sum : 35450
+vs random player not lose: 93.75
+vs old model : 46.45669291338583
+episode_sum : 35500
+vs random player not lose: 93.0
+vs old model : 39.111111111111114
+episode_sum : 35550
+vs random player not lose: 95.5
+vs old model : 37.03703703703704
+episode_sum : 35600
+vs random player not lose: 94.75
+vs old model : 45.493562231759654
+episode_sum : 35650
+vs random player not lose: 93.75
+vs old model : 43.497757847533634
+episode_sum : 35700
+vs random player not lose: 92.75
+vs old model : 36.29032258064516
+episode_sum : 35750
+vs random player not lose: 95.0
+vs old model : 37.890625
+episode_sum : 35800
+vs random player not lose: 96.0
+vs old model : 38.46153846153846
+episode_sum : 35850
+vs random player not lose: 95.5
+vs old model : 39.27125506072875
+episode_sum : 35900
+vs random player not lose: 92.75
+vs old model : 37.10407239819005
+episode_sum : 35950
+vs random player not lose: 93.75
+vs old model : 35.16949152542373
+episode_sum : 36000
+vs random player not lose: 92.25
+vs old model : 43.359375
+episode_sum : 36050
+vs random player not lose: 93.0
+vs old model : 32.61802575107296
+episode_sum : 36100
+vs random player not lose: 95.75
+vs old model : 44.680851063829785
+episode_sum : 36150
+vs random player not lose: 93.5
+vs old model : 36.324786324786324
+episode_sum : 36200
+vs random player not lose: 95.75
+vs old model : 45.2914798206278
+episode_sum : 36250
+vs random player not lose: 94.5
+vs old model : 40.833333333333336
+episode_sum : 36300
+vs random player not lose: 93.0
+vs old model : 40.833333333333336
+episode_sum : 36350
+vs random player not lose: 94.75
+vs old model : 41.452991452991455
+episode_sum : 36400
+vs random player not lose: 95.75
+vs old model : 48.97119341563786
+episode_sum : 36450
+vs random player not lose: 94.75
+vs old model : 39.8406374501992
+episode_sum : 36500
+vs random player not lose: 95.0
+vs old model : 41.10671936758893
+episode_sum : 36550
+vs random player not lose: 93.25
+vs old model : 36.15384615384615
+episode_sum : 36600
+vs random player not lose: 93.0
+vs old model : 42.34234234234234
+episode_sum : 36650
+vs random player not lose: 92.75
+vs old model : 40.25423728813559
+episode_sum : 36700
+vs random player not lose: 94.25
+vs old model : 41.810344827586206
+episode_sum : 36750
+vs random player not lose: 91.0
+vs old model : 41.52542372881356
+episode_sum : 36800
+vs random player not lose: 94.5
+vs old model : 40.08097165991903
+episode_sum : 36850
+vs random player not lose: 92.25
+vs old model : 40.55118110236221
+episode_sum : 36900
+vs random player not lose: 93.5
+vs old model : 45.2991452991453
+episode_sum : 36950
+vs random player not lose: 93.0
+vs old model : 43.62139917695473
+episode_sum : 37000
+vs random player not lose: 94.5
+vs old model : 44.78764478764479
+episode_sum : 37050
+vs random player not lose: 93.25
+vs old model : 43.0188679245283
+episode_sum : 37100
+vs random player not lose: 94.5
+vs old model : 38.91213389121339
+episode_sum : 37150
+vs random player not lose: 93.5
+vs old model : 45.418326693227094
+episode_sum : 37200
+vs random player not lose: 93.25
+vs old model : 43.10344827586207
+episode_sum : 37250
+vs random player not lose: 93.25
+vs old model : 41.832669322709165
+episode_sum : 37300
+vs random player not lose: 93.25
+vs old model : 42.21311475409836
+episode_sum : 37350
+vs random player not lose: 94.0
+vs old model : 39.91416309012875
+episode_sum : 37400
+vs random player not lose: 94.5
+vs old model : 38.429752066115704
+episode_sum : 37450
+vs random player not lose: 92.5
+vs old model : 43.77358490566038
+episode_sum : 37500
+vs random player not lose: 94.25
+vs old model : 41.832669322709165
+episode_sum : 37550
+vs random player not lose: 93.0
+vs old model : 34.34782608695652
+episode_sum : 37600
+vs random player not lose: 93.25
+vs old model : 37.5
+episode_sum : 37650
+vs random player not lose: 94.0
+vs old model : 38.559322033898304
+episode_sum : 37700
+vs random player not lose: 93.25
+vs old model : 44.21487603305785
+episode_sum : 37750
+vs random player not lose: 93.5
+vs old model : 41.85022026431718
+episode_sum : 37800
+vs random player not lose: 93.5
+vs old model : 38.81856540084388
+episode_sum : 37850
+vs random player not lose: 93.0
+vs old model : 45.2
+episode_sum : 37900
+vs random player not lose: 92.75
+vs old model : 40.66390041493776
+episode_sum : 37950
+vs random player not lose: 94.25
+vs old model : 36.440677966101696
+episode_sum : 38000
+vs random player not lose: 92.5
+vs old model : 48.99598393574297
+episode_sum : 38050
+vs random player not lose: 92.5
+vs old model : 37.80487804878049
+episode_sum : 38100
+vs random player not lose: 93.5
+vs old model : 45.736434108527135
+episode_sum : 38150
+vs random player not lose: 93.75
+vs old model : 42.666666666666664
+episode_sum : 38200
+vs random player not lose: 94.5
+vs old model : 41.86991869918699
+episode_sum : 38250
+vs random player not lose: 94.75
+vs old model : 40.725806451612904
+episode_sum : 38300
+vs random player not lose: 95.75
+vs old model : 42.44897959183673
+episode_sum : 38350
+vs random player not lose: 94.75
+vs old model : 45.45454545454545
+episode_sum : 38400
+vs random player not lose: 93.75
+vs old model : 41.26984126984127
+episode_sum : 38450
+vs random player not lose: 93.75
+vs old model : 44.78260869565217
+episode_sum : 38500
+vs random player not lose: 94.5
+vs old model : 41.37931034482759
+episode_sum : 38550
+vs random player not lose: 92.0
+vs old model : 43.145161290322584
+episode_sum : 38600
+vs random player not lose: 93.75
+vs old model : 37.80487804878049
+episode_sum : 38650
+vs random player not lose: 94.0
+vs old model : 42.74809160305343
