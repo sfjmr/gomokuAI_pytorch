@@ -92,11 +92,11 @@ class Brain_dqn:
         eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * episode_sum / EPS_DECAY)
         
         if step <= 1:
-            eps_threshold = 0.9
+            eps_threshold = 0.6#max()にする？
         elif step == 2:
-            eps_threshold = 0.6
-        elif step == 3:
             eps_threshold = 0.3
+        elif step == 3:
+            eps_threshold = 0.1
         elif step == 4:
             eps_threshold = 0.1
         elif step >= 5:
