@@ -154,25 +154,31 @@ if __name__ == '__main__':
                 tmp_data.append([state, action])
                 
                 reward_win = torch.tensor([1], device=device, dtype=torch.float)
+                reward_0 = torch.tensor([0], device=device, dtype=torch.float)
+                reward_lose = torch.tensor([-1], device=device, dtype=torch.float)
+
                 if len(tmp_data) >= 3:#自分
                     #state', 'action', 'next_state', 'reward'
-                        if reward == reward_win:
-                            memory.push(tmp_data[-3][0], tmp_data[-3][1], None, reward)
+                    memory.push(tmp_data[-3][0], tmp_data[-3][1], state, reward_0)
+                        #if reward == reward_win:
+                        #    memory.push(tmp_data[-3][0], tmp_data[-3][1], None, reward)
                 if len(tmp_data) >= 4:#相手
                     #state', 'action', 'next_state', 'reward'
-                        if reward == reward_win:
-                            memory.push(tmp_data[-4][0], tmp_data[-4][1], None, -1*reward)
+                        #if reward == reward_win:
+                        #    memory.push(tmp_data[-4][0], tmp_data[-4][1], None, -1*reward)
+                    pass
                 
-                memory.push(tmp_data[-3][0], tmp_data[-3][1], state, reward)
-
                 if terminal:
                     #print("終了")
                     
                     #終局のときだけ追加
                     memory.push(state, action, None, reward)
-                    reward_lose = torch.tensor([-1], device=device, dtype=torch.float)
+                    memory.push(tmp_data[-3][0], tmp_data[-3][1], None, reward)
+
+                    
                     #print("-1*reward", -1*reward)
                     memory.push(tmp_data[-2][0], tmp_data[-2][1], None, -1*reward)
+                    memory.push(tmp_data[-4][0], tmp_data[-4][1], None, -1*reward)
                     
                     break #whileを抜ける
 
