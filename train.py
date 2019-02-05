@@ -153,12 +153,13 @@ if __name__ == '__main__':
                 
                 tmp_data.append([state, action])
                 
-                if len(tmp_data) >= 3:
-                    len_data = len(tmp_data)
+                if len(tmp_data) >= 3:#自分
                     reward_0 = torch.tensor([0], device=device, dtype=torch.float)
                     #state', 'action', 'next_state', 'reward'
-                    memory.push(tmp_data[len_data-3][0], tmp_data[len_data-3][1], state, reward)
-
+                    memory.push(tmp_data[-3][0], tmp_data[-3][1], state, reward)
+                if len(tmp_data) >= 4:#相手
+                    #state', 'action', 'next_state', 'reward'
+                    memory.push(tmp_data[-4][0], tmp_data[-4][1], tmp_data[-2][0], -1*reward)
                 
                     
                 if terminal:
@@ -168,7 +169,7 @@ if __name__ == '__main__':
                     memory.push(state, action, None, reward)
                     reward_lose = torch.tensor([-1], device=device, dtype=torch.float)
                     #print("-1*reward", -1*reward)
-                    memory.push(tmp_data[len_data-2][0], tmp_data[len_data-2][1], None, -1*reward)
+                    memory.push(tmp_data[-2][0], tmp_data[-2][1], None, -1*reward)
                     
                     break #whileを抜ける
 
