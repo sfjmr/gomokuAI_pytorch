@@ -91,6 +91,8 @@ class Brain_dqn:
         sample = random.random()
         eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * episode_sum / EPS_DECAY)
         
+
+        '''
         if step <= 1:
             eps_threshold = max(0.6, eps_threshold)
         elif step == 2:
@@ -101,10 +103,10 @@ class Brain_dqn:
             eps_threshold = max(0.1, eps_threshold)
         elif step >= 5:
             eps_threshold = max(0.05, eps_threshold)
-        
+        '''
 
 
-        if  sample > eps_threshold:
+        if  sample > eps_threshold and step >= 2:
             
             #手を探索する
             #p_ary= self.searchGameTree(ban, model, player_side, search_depth)
