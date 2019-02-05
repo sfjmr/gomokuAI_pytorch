@@ -153,13 +153,15 @@ if __name__ == '__main__':
                 
                 tmp_data.append([state, action])
                 
+                reward_win = torch.tensor([1], device=device, dtype=torch.float)
                 if len(tmp_data) >= 3:#自分
-                    reward_0 = torch.tensor([0], device=device, dtype=torch.float)
                     #state', 'action', 'next_state', 'reward'
-                    memory.push(tmp_data[-3][0], tmp_data[-3][1], state, reward)
+                        if reward == reward_win:
+                            memory.push(tmp_data[-3][0], tmp_data[-3][1], None, reward)
                 if len(tmp_data) >= 4:#相手
                     #state', 'action', 'next_state', 'reward'
-                    memory.push(tmp_data[-4][0], tmp_data[-4][1], tmp_data[-2][0], -1*reward)
+                        if reward == reward_win:
+                            memory.push(tmp_data[-4][0], tmp_data[-4][1], None, -1*reward)
                 
                     
                 if terminal:
