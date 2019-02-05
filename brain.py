@@ -91,7 +91,7 @@ class Brain_dqn:
         sample = random.random()
         eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * episode_sum / EPS_DECAY)
         
-        if  sample > eps_threshold :#step > 1 n手目からNNを使う
+        if  sample > eps_threshold and step >= 2:#step > 1 n手目からNNを使う
             
             #手を探索する
             #p_ary= self.searchGameTree(ban, model, player_side, search_depth)
