@@ -163,7 +163,8 @@ if __name__ == '__main__':
                         if reward == reward_win:
                             memory.push(tmp_data[-4][0], tmp_data[-4][1], None, -1*reward)
                 
-                    
+                memory.push(tmp_data[-3][0], tmp_data[-3][1], state, reward)
+
                 if terminal:
                     #print("終了")
                     
