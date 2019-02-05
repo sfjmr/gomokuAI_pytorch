@@ -177,7 +177,7 @@ if __name__ == '__main__':
 
                     
                     #print("-1*reward", -1*reward)
-                    memory.push(tmp_data[-2][0], tmp_data[-2][1], None, reward)
+                    memory.push(tmp_data[-2][0], tmp_data[-2][1], None, -1*reward)
                     memory.push(tmp_data[-4][0], tmp_data[-4][1], None, -1*GAMMA*reward)
                     
                     break #whileを抜ける
