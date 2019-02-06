@@ -55,6 +55,9 @@ class Brain_dqn:
         self.loss_p = 0
         self.loss_memory = []#lossを貯めてlrの決定に使う
         self.loss_average_tmp =-1#lossの平均値
+
+        #random
+        self.eps_threshold = 0
         
         
     #次の手を決める
@@ -91,6 +94,7 @@ class Brain_dqn:
         sample = random.random()
         eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * episode_sum / EPS_DECAY)
         
+        self.eps_threshold = eps_threshold
 
         '''
         if step <= 1:
