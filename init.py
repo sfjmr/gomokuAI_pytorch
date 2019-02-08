@@ -11,7 +11,7 @@ device = ("cuda" if torch.cuda.is_available() else "cpu")
 
 GAMMA = 0.7  # 時間割引率
 NUM_EPISODES = 50  # 最大試行回数 これを行うごとにネットワークを比較する
-BATCH_SIZE = 10
+BATCH_SIZE = 100
 epoch_num = 1  # 学習する回数
 CAPACITY = 10000
 lr = 0.01  # 学習係数 初期値
