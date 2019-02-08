@@ -274,7 +274,7 @@ class Brain_dqn:
             action_batch = torch.cat(batch.action)
             reward_batch = torch.cat(batch.reward)
             #print(batch.put_available_position)
-            print(batch.reward)
+            print(batch.reward.size())
             put_available_position_batch = torch.cat(batch.put_available_position)
             
             
