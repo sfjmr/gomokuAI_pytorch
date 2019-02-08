@@ -263,13 +263,7 @@ class Brain_dqn:
             '''
             モデルはnew_modelとなっている!!
             '''
-            '''
-            if len(self.memory) < self.BATCH_SIZE:
-                print('len(self.memory) : {}'.format(len(self.memory)))
-                return
-            '''
-            #BATCH_SIZE = min(len(self.memory), self.BATCH_SIZE)#self.BATCH_SIZEに達するまでは今あるデータで訓練
-
+            
             BATCH_SIZE = self.BATCH_SIZE
             transitions = self.memory.sample(BATCH_SIZE)
 
