@@ -3,6 +3,7 @@
 import numpy as np
 import heapq
 import matplotlib.pyplot as plt
+from general_func import rc2index, index2rc
 
 
 
@@ -231,3 +232,15 @@ class Env:
                     player_status[r_n][c_n] = 1
 
         return np.array(player_status)
+
+    def rtn_put_available_position(self):
+        #空いている場所-> 1,埋まっている場所->0
+        put_available_position = np.zeros(self.BANSIZE)
+
+        for r_n in range(self.screen_n_rows):
+            for c_n in range(self.screen_n_cols):
+                if self.ban[r_n][c_n] == -1:  #空いていたら
+                    index = rc2index(r_n,c_n)
+                    put_available_position[index] = 1
+        
+        return put_available_position

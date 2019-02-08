@@ -13,9 +13,9 @@ class ReplayMemory:
         self.memory = []  # 経験を保存する変数
         self.index = 0  # 保存するindexを示す変数
         self.Transition = namedtuple(
-            'Transition', ('state', 'action', 'next_state', 'reward'))
+            'Transition', ('state', 'action', 'next_state', 'put_available_position','reward'))
 
-    def push(self, state, action, next_state, reward):
+    def push(self, state, action, next_state, put_available_position,reward):
         
         
         if len(self.memory) < self.capacity:
@@ -23,7 +23,7 @@ class ReplayMemory:
 
         # namedtupleのTransitionを使用し、値とフィールド名をペアにして保存します
         self.memory[self.index] = self.Transition(
-            state, action, next_state, reward)
+            state, action, next_state, put_available_position, reward)
 
         self.index = (self.index + 1) % self.capacity  # 保存するindexを1つずらす
 

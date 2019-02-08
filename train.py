@@ -137,6 +137,7 @@ if __name__ == '__main__':
                 #p_ary = torch.from_numpy(np.array([p_ary])).type(torch.FloatTensor)
                 
                 state = chg_input_cnn(ban, player_side)
+                put_available_position = ban.rtn_put_available_position()
                 action = rc2index(r, c)
                 action = torch.tensor([[action]], device=device, dtype=torch.long)
                 reward = torch.tensor([reward], device=device, dtype=torch.float)
@@ -158,12 +159,14 @@ if __name__ == '__main__':
                 reward_lose = torch.tensor([-1], device=device, dtype=torch.float)
 
                 if len(tmp_data) >= 3:#自分
-                    #state', 'action', 'next_state', 'reward'
-                    memory.push(tmp_data[-3][0], tmp_data[-3][1], state, reward_0)
+                    #state', 'action', 'next_state', 'put_available_position','reward'
+                    ban.ban_print()
+                    print(put_available_position)
+                    memory.push(tmp_data[-3][0], tmp_data[-3][1], state, put_available_position,reward_0)
                         #if reward == reward_win:
                         #    memory.push(tmp_data[-3][0], tmp_data[-3][1], None, reward)
                 if len(tmp_data) >= 4:#相手
-                    #state', 'action', 'next_state', 'reward'
+                    #state', 'action', 'next_state', 'put_available_position','reward'
                         #if reward == reward_win:
                         #    memory.push(tmp_data[-4][0], tmp_data[-4][1], None, -1*reward)
                     pass
@@ -171,14 +174,17 @@ if __name__ == '__main__':
                 if terminal:
                     #print("終了")
                     
+
                     #終局のときだけ追加
-                    memory.push(state, action, None, reward)
-                    memory.push(tmp_data[-3][0], tmp_data[-3][1], None, GAMMA*reward)
+                    #state', 'action', 'next_state', 'put_available_position','reward'
+                    memory.push(state, action, None, None,reward)
+                    memory.push(tmp_data[-3][0], tmp_data[-3][1], None, None,GAMMA*reward)
 
                     
                     #print("-1*reward", -1*reward)
-                    memory.push(tmp_data[-2][0], tmp_data[-2][1], None, -1*reward)
-                    memory.push(tmp_data[-4][0], tmp_data[-4][1], None, -1*GAMMA*reward)
+                    #state', 'action', 'next_state', 'put_available_position','reward'
+                    memory.push(tmp_data[-2][0], tmp_data[-2][1], None, None, -1*reward)
+                    memory.push(tmp_data[-4][0], tmp_data[-4][1], None, None, -1*GAMMA*reward)
                     
                     break #whileを抜ける
 
