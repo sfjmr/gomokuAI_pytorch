@@ -288,9 +288,9 @@ class Brain_dqn:
             next_state_values = torch.zeros(BATCH_SIZE, device=self.device)
 
             print("-"*20)
-            print(self.new_model(non_final_next_states)[0][0])
-            print(put_available_position_batch[0])
-            print(self.new_model(non_final_next_states)[0]*put_available_position_batch[0])
+            print(self.new_model(non_final_next_states)[0])
+            print(put_available_position_batch)
+            print(self.new_model(non_final_next_states)[0]*put_available_position_batch)
             next_state_values[non_final_mask] = self.new_model(non_final_next_states)[0].max(1)[0].detach()
             # Compute the expected Q values
             expected_state_action_values = (next_state_values * self.GAMMA) + reward_batch
