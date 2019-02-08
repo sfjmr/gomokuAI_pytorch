@@ -135,7 +135,7 @@ if __name__ == '__main__':
                 
                 
                 #p_ary = torch.from_numpy(np.array([p_ary])).type(torch.FloatTensor)
-                
+                ban.ban_print()
                 state = chg_input_cnn(ban, player_side)
                 put_available_position = ban.rtn_put_available_position()
                 action = rc2index(r, c)
@@ -160,7 +160,6 @@ if __name__ == '__main__':
 
                 if len(tmp_data) >= 3:#自分
                     #state', 'action', 'next_state', 'put_available_position','reward'
-                    ban.ban_print()
                     print(put_available_position)
                     memory.push(tmp_data[-3][0], tmp_data[-3][1], state, put_available_position,reward_0)
                         #if reward == reward_win:
