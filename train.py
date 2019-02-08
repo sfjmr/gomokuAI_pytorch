@@ -137,7 +137,7 @@ if __name__ == '__main__':
                 #p_ary = torch.from_numpy(np.array([p_ary])).type(torch.FloatTensor)
                 state = chg_input_cnn(ban, player_side)
                 put_available_position = ban.rtn_put_available_position()
-                put_available_position = torch.tensor([[0]], device=device, dtype=torch.long)
+                put_available_position = torch.tensor([put_available_position], device=device, dtype=torch.long)
                 action = rc2index(r, c)
                 action = torch.tensor([[action]], device=device, dtype=torch.long)
                 reward = torch.tensor([reward], device=device, dtype=torch.float)
