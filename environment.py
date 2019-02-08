@@ -235,12 +235,12 @@ class Env:
 
     def rtn_put_available_position(self):
         #空いている場所-> 1,埋まっている場所->0
-        put_available_position = np.zeros(self.BANSIZE)
+        put_available_position = np.full(self.BANSIZE, -float("Inf"))
 
         for r_n in range(self.screen_n_rows):
             for c_n in range(self.screen_n_cols):
                 if self.ban[r_n][c_n] == -1:  #空いていたら
                     index = rc2index(r_n,c_n)
-                    put_available_position[index] = 1
+                    put_available_position[index] = 0
         
         return put_available_position

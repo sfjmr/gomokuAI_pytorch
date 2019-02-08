@@ -291,7 +291,7 @@ class Brain_dqn:
             #print(self.new_model(non_final_next_states)[0])
             #print(put_available_position_batch)
             #print(self.new_model(non_final_next_states)[0]*put_available_position_batch)
-            next_q_values = self.new_model(non_final_next_states)[0]*put_available_position_batch
+            next_q_values = self.new_model(non_final_next_states)[0]+put_available_position_batch
             next_state_values[non_final_mask] = next_q_values.max(1)[0].detach()
             # Compute the expected Q values
             expected_state_action_values = (next_state_values * self.GAMMA) + reward_batch
