@@ -88,7 +88,7 @@ class Brain_dqn:
         #print("fastmodeじゃないよ...")
         
         EPS_START = 0.9
-        EPS_END = 0.05
+        EPS_END = 0.3
         EPS_DECAY = 1000
         
         sample = random.random()
