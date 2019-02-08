@@ -273,8 +273,6 @@ class Brain_dqn:
             state_batch = torch.cat(batch.state)
             action_batch = torch.cat(batch.action)
             reward_batch = torch.cat(batch.reward)
-            print(batch.put_available_position[0])
-            print(batch.reward[0])
             
             
             non_final_mask = torch.tensor(tuple(map(lambda s: s is not None,

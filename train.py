@@ -161,9 +161,6 @@ if __name__ == '__main__':
                 if len(tmp_data) >= 3:#自分
                     #state', 'action', 'next_state', 'put_available_position','reward'
 
-                    print("-"*20)
-                    print(reward_0)
-                    print(put_available_position)
                     memory.push(tmp_data[-3][0], tmp_data[-3][1], state, put_available_position,reward_0)
                         #if reward == reward_win:
                         #    memory.push(tmp_data[-3][0], tmp_data[-3][1], None, reward)
