@@ -227,19 +227,20 @@ class Brain_dqn:
         
         #ban_copy.ban_print()
         
-        if ban_copy.ban_fill():
+        if ban_copy.ban_win(player_side, r, c):
+            
+            reward = 1
+            terminal = True
+            #print("win")
+            return reward, r, c, state, terminal
+        
+        elif ban_copy.ban_fill():
             #print("もう打てないよ！！")
             reward = 0
             terminal = True
             #print("fill")
             return reward, r, c, state, terminal
 
-        elif ban_copy.ban_win(player_side, r, c):
-            
-            reward = 1
-            terminal = True
-            #print("win")
-            return reward, r, c, state, terminal
         
         else:
             reward = 0
@@ -252,12 +253,12 @@ class Brain_dqn:
         ban_copy = copy.deepcopy(ban)
         ban_copy.ban_applay(player_side, action[0], action[1])
 
-        if ban_copy.ban_fill():
-            print("fill")
-            q = 0
-        elif ban_copy.ban_win(player_side, action[0], action[1]):
+        if ban_copy.ban_win(player_side, action[0], action[1]):
             print("win")
             q = 1
+        elif ban_copy.ban_fill():
+            print("fill")
+            q = 0
         else:
             state = chg_input_cnn(ban_copy, 1-player_side)
             p_ary , _ = model(state.to(self.device))
@@ -274,12 +275,12 @@ class Brain_dqn:
 
             ban_copy.ban_applay(1-player_side, r_op,c_op)
 
-            if ban_copy.ban_fill():
-                print("fill op")
-                q = 0
-            elif ban_copy.ban_win(1-player_side, r_op,c_op):
+            if ban_copy.ban_win(1-player_side, r_op,c_op):
                 print("lose")
                 q = -1
+            elif ban_copy.ban_fill():
+                print("fill op")
+                q = 0
             else:
                 print("other")
                 state = chg_input_cnn(ban_copy, player_side)
