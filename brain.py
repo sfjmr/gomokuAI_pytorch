@@ -200,6 +200,7 @@ class Brain_dqn:
         
         
         for i in range(10):
+            print(ban_put_available)
             action = random.choices(ban_put_available)
             print(action)
             q = self.rtn_q(ban, model, player_side, action)
