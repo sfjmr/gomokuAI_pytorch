@@ -88,8 +88,8 @@ class Brain_dqn:
         #print("fastmodeじゃないよ...")
         
         EPS_START = 0.9
-        EPS_END = 0.3
-        EPS_DECAY = 1000
+        EPS_END = 0.05
+        EPS_DECAY = 100000
         
         sample = random.random()
         eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * episode_sum / EPS_DECAY)
@@ -110,7 +110,7 @@ class Brain_dqn:
         '''
 
 
-        if  sample > eps_threshold and step >= 2:
+        if  sample > eps_threshold and step >= 1:
             
             #手を探索する
             #p_ary= self.searchGameTree(ban, model, player_side, search_depth)
