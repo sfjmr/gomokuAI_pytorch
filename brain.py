@@ -198,13 +198,19 @@ class Brain_dqn:
         p_ary = p_ary.detach().cpu().numpy()[0]
         ban_put_available = ban_copy.ban_put_available()
         
+        q_ary_for_w = []
+
+        for [r,c] in ban_put_available:
+            index = rc2index(r,c)
+            q_ary_for_w.append(p_ary[index])
+
         print("--------------")
         print("player_side", player_side)
         ban.ban_print()
         print(p_ary)
         for i in range(10):
             #print(ban_put_available)
-            w = self.softmax_numpy(p_ary, 0.1)
+            w = self.softmax_numpy(q_ary_for_w, 0.1)
             print("weights", w)
             print("ban_put_available", ban_put_available)
             action = random.choices(ban_put_available, weights=w)[0]
