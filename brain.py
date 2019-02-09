@@ -286,7 +286,7 @@ class Brain_dqn:
                     break
             print("相手が打つ場所", r_op,c_op)
             ban_copy.ban_applay(1-player_side, r_op,c_op)
-            ban.ban_print()
+            ban_copy.ban_print()
             if ban_copy.ban_win(1-player_side, r_op,c_op):
                 print("lose")
                 q = -1
