@@ -280,10 +280,19 @@ class Brain_dqn:
             ban_put_available = ban_copy.ban_put_available()
             #print(ban_put_available)
             
-            for index in p_ary_index:
-                r_op,c_op = index2rc(index)
-                if [r_op,c_op] in ban_put_available:
-                    break
+            lose_flg = 0
+            for [r_op,c_op] in ban_put_available:
+                ban_copy2 = copy.deepcopy(ban_copy)
+                ban_copy2.ban_applay(1-player_side, r_op,c_op)
+                if ban_copy2.ban_win(1-player_side, r_op,c_op):
+                    lose_flg = 1
+                    print("lose 確定")
+                    
+            if lose_flg == 0:
+                for index in p_ary_index:
+                    r_op,c_op = index2rc(index)
+                    if [r_op,c_op] in ban_put_available:
+                        break
             print("相手が打つ場所", r_op,c_op)
             ban_copy.ban_applay(1-player_side, r_op,c_op)
             ban_copy.ban_print()
