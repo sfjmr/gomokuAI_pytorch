@@ -203,7 +203,7 @@ class Brain_dqn:
         print("player_side", player_side)
         ban.ban_print()
         print(p_ary)
-        for i in range(10):
+        for i in range(15):
             #print(ban_put_available)
 
             q_ary_for_w = []
