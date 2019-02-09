@@ -199,6 +199,7 @@ class Brain_dqn:
         ban_put_available = ban_copy.ban_put_available()
         
         print("--------------")
+        ban.ban_print()
         print(p_ary)
         for i in range(10):
             #print(ban_put_available)
