@@ -110,7 +110,7 @@ class Brain_dqn:
         '''
 
 
-        if  sample > eps_threshold and step >= 1:
+        if  sample > eps_threshold:# and step >= 1
             
             #手を探索する
             #p_ary= self.searchGameTree(ban, model, player_side, search_depth)
