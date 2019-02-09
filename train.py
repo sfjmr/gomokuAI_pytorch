@@ -177,13 +177,13 @@ if __name__ == '__main__':
                     #終局のときだけ追加
                     #state', 'action', 'next_state', 'put_available_position','reward'
                     memory.push(state, action, None, None,reward)
-                    memory.push(tmp_data[-3][0], tmp_data[-3][1], None, None,GAMMA*reward)
+                    #memory.push(tmp_data[-3][0], tmp_data[-3][1], None, None,GAMMA*reward)
 
                     
                     #print("-1*reward", -1*reward)
                     #state', 'action', 'next_state', 'put_available_position','reward'
                     memory.push(tmp_data[-2][0], tmp_data[-2][1], None, None, -1*reward)
-                    memory.push(tmp_data[-4][0], tmp_data[-4][1], None, None, -1*GAMMA*reward)
+                    #memory.push(tmp_data[-4][0], tmp_data[-4][1], None, None, -1*GAMMA*reward)
                     
                     break #whileを抜ける
 
