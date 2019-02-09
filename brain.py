@@ -89,7 +89,7 @@ class Brain_dqn:
         
         EPS_START = 0.9
         EPS_END = 0.05
-        EPS_DECAY = 10000
+        EPS_DECAY = 1000
         
         sample = random.random()
         eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * episode_sum / EPS_DECAY)
@@ -318,4 +318,5 @@ class Brain_dqn:
         
     def update_main_network(self):#最新のネットワーク(new)が勝ったらモデルをmainネットワークにアップデートする
         self.main_model.load_state_dict(self.new_model.state_dict())
+        
         
