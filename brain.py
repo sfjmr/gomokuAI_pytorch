@@ -212,7 +212,7 @@ class Brain_dqn:
                 index = rc2index(r,c)
                 q_ary_for_w.append(p_ary[index])
 
-            w = self.softmax_numpy(q_ary_for_w, 1/(1+i))
+            w = self.softmax_numpy(q_ary_for_w, 1/(1+3*i))
             print("q_ary_for_w", q_ary_for_w)
             print("weights", w)
             print("ban_put_available", ban_put_available)
