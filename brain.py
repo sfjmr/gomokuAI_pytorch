@@ -198,7 +198,8 @@ class Brain_dqn:
         p_ary = p_ary.detach().cpu().numpy()[0]
         ban_put_available = ban_copy.ban_put_available()
         
-        
+        print("--------------")
+        print(p_ary)
         for i in range(10):
             #print(ban_put_available)
             action = random.choices(ban_put_available)[0]
@@ -206,7 +207,7 @@ class Brain_dqn:
             q = self.rtn_q(ban, model, player_side, action)
             index = rc2index(action[0], action[1])
             p_ary[index] = (q + p_ary[index])/2
-        
+        print(p_ary)
         
         
         p_ary_index = np.argsort(p_ary)[::-1] 
