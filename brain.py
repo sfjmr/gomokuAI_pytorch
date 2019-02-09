@@ -206,8 +206,7 @@ class Brain_dqn:
             #print(ban_put_available)
             w = self.softmax_numpy(p_ary, 0.1)
             print("weights", w)
-            print("ban_put_available[0]", ban_put_available[0])
-            action = random.choices(ban_put_available[0], weights=w)
+            action = random.choices(ban_put_available, weights=w)[0]
             #print(action)
             q = self.rtn_q(ban, model, player_side, action)
             index = rc2index(action[0], action[1])
