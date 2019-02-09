@@ -213,6 +213,7 @@ class Brain_dqn:
                 q_ary_for_w.append(p_ary[index])
 
             w = self.softmax_numpy(q_ary_for_w, 0.1)
+            print("q_ary_for_w", q_ary_for_w)
             print("weights", w)
             print("ban_put_available", ban_put_available)
             action = random.choices(ban_put_available, weights=w)[0]
