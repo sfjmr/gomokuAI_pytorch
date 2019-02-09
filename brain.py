@@ -298,7 +298,8 @@ class Brain_dqn:
                 state = chg_input_cnn(ban_copy, player_side)
                 p_ary , _ = model(state.to(self.device))
                 p_ary = p_ary.detach().cpu().numpy()[0]
-                q = np.max(p_ary)
+                put_available_position = ban_copy.rtn_put_available_position()
+                q = np.max(p_ary + put_available_position)
         
         return q
 
