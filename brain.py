@@ -208,6 +208,7 @@ class Brain_dqn:
             #print(action)
             q = self.rtn_q(ban, model, player_side, action)
             index = rc2index(action[0], action[1])
+            print(i, action, q)
             p_ary[index] = (q + p_ary[index])/2
         print(p_ary)
         
