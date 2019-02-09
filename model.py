@@ -91,8 +91,8 @@ class NeuralNet_cnn(nn.Module):
         #out_p = F.softmax(self.fc_p2(out_p1), dim=1)
         #out_p1 = self.fc_p2(out_p1)
         #out_p =  self.sigmoid_p4(out_p1)
-        #out_p =  self.tanh_p4(out_p1)
-        out_p = self.hardtanh_p4(out_p1)
+        out_p =  self.tanh_p4(out_p1)
+        #out_p = self.hardtanh_p4(out_p1)
         #out_p =  F.softmax(out_p1, dim=1)
         #out_p = out_p1
 

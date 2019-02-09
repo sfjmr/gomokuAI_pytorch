@@ -284,9 +284,9 @@ class Brain_dqn:
                 r_op,c_op = index2rc(index)
                 if [r_op,c_op] in ban_put_available:
                     break
-            #print("相手が打つ場所", r_op,c_op)
+            print("相手が打つ場所", r_op,c_op)
             ban_copy.ban_applay(1-player_side, r_op,c_op)
-
+            ban.ban_print()
             if ban_copy.ban_win(1-player_side, r_op,c_op):
                 print("lose")
                 q = -1
