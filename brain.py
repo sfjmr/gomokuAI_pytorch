@@ -201,6 +201,7 @@ class Brain_dqn:
         
         for i in range(10):
             action = random.choices(ban_put_available)
+            print(action)
             q = self.rtn_q(ban, model, player_side, action)
             index = rc2index(action[0], action[1])
             p_ary[index] = (q + p_ary[index])/2
