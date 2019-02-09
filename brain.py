@@ -196,9 +196,20 @@ class Brain_dqn:
         state = chg_input_cnn(ban_copy, player_side)
         p_ary , _ = model(state.to(self.device))
         p_ary = p_ary.detach().cpu().numpy()[0]
+        ban_put_available = ban_copy.ban_put_available()
+        
+        
+        for i in range(10):
+            action = random.choices(ban_put_available)
+            q = self.rtn_q(ban, model, player_side, action)
+            index = rc2index(action[0], action[1])
+            p_ary[index] = (q + p_ary[index])/2
+        
+        
+        
         p_ary_index = np.argsort(p_ary)[::-1] 
             
-        ban_put_available = ban_copy.ban_put_available()
+        
         #print(ban_put_available)
         
         for index in p_ary_index:
@@ -230,9 +241,49 @@ class Brain_dqn:
             #print("continue")
             return reward, r, c, state, terminal
         
+    def rtn_q(self, ban, model, player_side, action):
+        q = None
+        ban_copy = copy.deepcopy(ban)
+        ban_copy.ban_applay(player_side, action[0], action[1])
+
+        if ban_copy.ban_fill():
+            q = 0
+        elif ban_copy.ban_win(player_side, action[0], action[1]):
+            q = 1
+        else:
+            state = chg_input_cnn(ban_copy, 1-player_side)
+            p_ary , _ = model(state.to(self.device))
+            p_ary = p_ary.detach().cpu().numpy()[0]
+            p_ary_index = np.argsort(p_ary)[::-1] 
+                
+            ban_put_available = ban_copy.ban_put_available()
+            #print(ban_put_available)
             
+            for index in p_ary_index:
+                r_op,c_op = index2rc(index)
+                if [r_op,c_op] in ban_put_available:
+                    break
+
+            ban_copy.ban_applay(1-player_side, r_op,c_op)
+
+            if ban_copy.ban_fill():
+                q = 0
+            elif ban_copy.ban_win(1-player_side, r_op,c_op):
+                q = -1
+            else:
+                state = chg_input_cnn(ban_copy, player_side)
+                p_ary , _ = model(state.to(self.device))
+                p_ary = p_ary.detach().cpu().numpy()[0]
+                q = np.max(p_ary)
+        
+        return q
+
+
+
             
         
+
+            
     
         
     
