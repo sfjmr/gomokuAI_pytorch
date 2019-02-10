@@ -199,10 +199,10 @@ class Brain_dqn:
         ban_put_available = ban_copy.ban_put_available()
         
         
-        print("--------------")
-        print("player_side", player_side)
-        ban.ban_print()
-        print(p_ary)
+        #print("--------------")
+        #print("player_side", player_side)
+        #ban.ban_print()
+        #print(p_ary)
         for i in range(15):
             #print(ban_put_available)
 
@@ -213,16 +213,16 @@ class Brain_dqn:
                 q_ary_for_w.append(p_ary[index])
 
             w = self.softmax_numpy(q_ary_for_w, 1/(1+3*i))
-            print("q_ary_for_w", q_ary_for_w)
-            print("weights", w)
-            print("ban_put_available", ban_put_available)
+            #print("q_ary_for_w", q_ary_for_w)
+            #print("weights", w)
+            #print("ban_put_available", ban_put_available)
             action = random.choices(ban_put_available, weights=w)[0]
             #print(action)
             q = self.rtn_q(ban, model, player_side, action)
             index = rc2index(action[0], action[1])
-            print(i, action, q)
+            #print(i, action, q)
             p_ary[index] = (q + p_ary[index])/2
-        print(p_ary)
+        #print(p_ary)
         
         
         p_ary_index = np.argsort(p_ary)[::-1] 
