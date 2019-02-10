@@ -286,24 +286,24 @@ class Brain_dqn:
                 ban_copy2.ban_applay(1-player_side, r_op,c_op)
                 if ban_copy2.ban_win(1-player_side, r_op,c_op):
                     lose_flg = 1
-                    print("lose 確定")
+                    #print("lose 確定")
                     
             if lose_flg == 0:
                 for index in p_ary_index:
                     r_op,c_op = index2rc(index)
                     if [r_op,c_op] in ban_put_available:
                         break
-            print("相手が打つ場所", r_op,c_op)
+            #print("相手が打つ場所", r_op,c_op)
             ban_copy.ban_applay(1-player_side, r_op,c_op)
-            ban_copy.ban_print()
+            #ban_copy.ban_print()
             if ban_copy.ban_win(1-player_side, r_op,c_op):
-                print("lose")
+                #print("lose")
                 q = -1
             elif ban_copy.ban_fill():
-                print("fill op")
+                #print("fill op")
                 q = 0
             else:
-                print("other")
+                #print("other")
                 state = chg_input_cnn(ban_copy, player_side)
                 p_ary , _ = model(state.to(self.device))
                 p_ary = p_ary.detach().cpu().numpy()[0]
