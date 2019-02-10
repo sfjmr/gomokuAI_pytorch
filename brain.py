@@ -216,7 +216,8 @@ class Brain_dqn:
             #print("q_ary_for_w", q_ary_for_w)
             #print("weights", w)
             #print("ban_put_available", ban_put_available)
-            action = random.choices(ban_put_available, weights=w)[0]
+            #action = random.choices(ban_put_available, weights=w)[0]
+            action = random.choices(ban_put_available)[0]
             #print(action)
             q = self.rtn_q(ban, model, player_side, action)
             index = rc2index(action[0], action[1])
