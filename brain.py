@@ -308,6 +308,9 @@ class Brain_dqn:
                 p_ary , _ = model(state.to(self.device))
                 p_ary = p_ary.detach().cpu().numpy()[0]
                 put_available_position = ban_copy.rtn_put_available_position()
+                print(p_ary)
+                print(put_available_position)
+                print(p_ary + put_available_position)
                 q = np.max(p_ary + put_available_position)
         
         return q
