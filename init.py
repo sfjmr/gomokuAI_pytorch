@@ -2,9 +2,9 @@ import torch
 import datetime
 
 
-BANHEN = 14
+BANHEN = 3
 BANSIZE = BANHEN**2
-WINREN = 5
+WINREN = 3
 
 device = ("cuda" if torch.cuda.is_available() else "cpu")
 
