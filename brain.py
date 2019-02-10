@@ -266,10 +266,10 @@ class Brain_dqn:
         ban_copy.ban_applay(player_side, action[0], action[1])
 
         if ban_copy.ban_win(player_side, action[0], action[1]):
-            print("win")
+            #print("win")
             q = 1
         elif ban_copy.ban_fill():
-            print("fill")
+            #print("fill")
             q = 0
         else:
             state = chg_input_cnn(ban_copy, 1-player_side)
