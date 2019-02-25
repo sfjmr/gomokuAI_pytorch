@@ -2,14 +2,15 @@ import torch
 import datetime
 
 
-BANHEN = 3
+BANHEN = 14
 BANSIZE = BANHEN**2
-WINREN = 3
+WINREN = 5
 
 device = ("cuda" if torch.cuda.is_available() else "cpu")
 
 
-GAMMA = 0.7 # 時間割引率
+GAMMA = 0.7
+ # 時間割引率
 NUM_EPISODES = 50  # 最大試行回数 これを行うごとにネットワークを比較する
 BATCH_SIZE = 100
 epoch_num = 1  # 学習する回数
@@ -24,8 +25,16 @@ gen_num_limit = 500  # モデルが何世代目になったら訓練をやめる
 random_put_limit = 3  # 最初はランダムに打つ
 update_win_rate = 55  # これ以上の勝率のときネットワークを更新する
 
+EPS_START = 0.9
+EPS_END = 0.2
+EPS_DECAY = 1000
+
+random_search_value = 100
+        
+
+
 now = now = datetime.datetime.now()
-model_filename = 'model_cnn_01_31_dqn_var1_part11_{0:%Y%m%d%H%M%S_}'.format(now)
+model_filename = 'model_cnn_02_25_dqn_var1_part1_{0:%Y%m%d%H%M%S_}'.format(now)
 file_path = "models/" + model_filename
 MEMO = " {} lr={},  GAMMA={} ".format(model_filename, lr,GAMMA)
 

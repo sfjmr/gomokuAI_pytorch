@@ -11,6 +11,7 @@ import torch.nn.functional as F
 
 
 from general_func import index2rc, rc2index, lr_file_read, chg_input_cnn
+from init import EPS_DECAY,EPS_END,EPS_START,random_search_value
 
 class Brain_dqn:
     def __init__(self, network, device, num_actions, ban, ReplayMemory,  GAMMA, BATCH_SIZE, lr, T, BANHEN, BANSIZE):
@@ -87,9 +88,6 @@ class Brain_dqn:
         
         #print("fastmodeじゃないよ...")
         
-        EPS_START = 0.9
-        EPS_END = 0.2
-        EPS_DECAY = 1000
         
         sample = random.random()
         eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * episode_sum / EPS_DECAY)
@@ -203,7 +201,7 @@ class Brain_dqn:
         #print("player_side", player_side)
         #ban.ban_print()
         #print(p_ary)
-        for i in range(15):
+        for i in range(random_search_value):
             #print(ban_put_available)
 
             q_ary_for_w = []
