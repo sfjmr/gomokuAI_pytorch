@@ -106,16 +106,16 @@ if __name__ == '__main__':
             
             tmp_data = []
             
-            #log_print("episode_sum : " + str(episode_sum))
+            log_print("episode_sum : " + str(episode_sum))
                 
             
             while match_is_continue:
                 step += 1
                 
-                #if step%10==0:
-                #    print(step, end="")
-                #else:
-                #    print('*', end="")
+                if step%10==0:
+                    print(step, end="")
+                else:
+                    print('*', end="")
                 
                 #print("\rstep : {0} ".format(step), end="")
 
