@@ -1,1 +1,0 @@
-# gomokuAI_pytorch
