@@ -1,3 +1,4 @@
+#訓練
 import numpy as np
 import torch
 import copy
@@ -9,6 +10,8 @@ from tensorboardX import SummaryWriter
 from torch import nn
 from torch import optim
 
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
 
 from general_func import write_lr, log_print, chg_input_cnn, rc2index
 from environment import Env
@@ -21,12 +24,8 @@ from init import BANHEN, BANSIZE, WINREN, file_path, lr, lr_filename, model_file
 
 print("device", device)
 
-
-
 if not os.path.exists(file_path):
             os.makedirs(file_path)
-        
-
 
 write_lr(lr) #lrのtextファイルを作成する
 
@@ -34,24 +33,8 @@ now = datetime.datetime.now()
 print('{0:%Y%m%d}'.format(now)) 
 
 
-
-
-
-
 #tensorboarx
 writer_x = SummaryWriter('tfbx2/' + '_' +'{0:%Y%m%d%H%M%S_}'.format(now)+ model_filename +MEMO +'/')
-
-
-
-# In[ ]:
-
-
-#訓練
-import os
-
-
-import pprint
-pp = pprint.PrettyPrinter(indent=4)
 
 
 ban = Env(BANHEN, WINREN)

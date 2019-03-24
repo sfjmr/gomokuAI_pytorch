@@ -1,3 +1,4 @@
+#勝率等を計算する
 import numpy as np
 import random
 import torch
