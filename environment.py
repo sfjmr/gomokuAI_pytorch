@@ -234,7 +234,7 @@ class Env:
         return np.array(player_status)
 
     def rtn_put_available_position(self):
-        #空いている場所-> 1,埋まっている場所->0
+        #空いている場所-> 0,埋まっている場所->-inf
         put_available_position = np.full(self.BANSIZE, -float("Inf"))
 
         for r_n in range(self.screen_n_rows):
