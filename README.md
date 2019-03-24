@@ -2,7 +2,7 @@
 
 This is a Python3 code of reinforcement-learning to play Noughts & Crosses.
 
-これは強化学習で五目並べをプレイするpython3のコードです．
+これは強化学習でN目並べをプレイするpython3のコードです．
 
 使用したアルゴリズムはDQNです．
 
