@@ -20,3 +20,9 @@ init.pyで各種パラメーターを設定します．
 
 初期設定では50ゲームごとにモデルを比較し，新モデルが古いモデルよりも強かったら（勝率が55%を超えたら）モデルを更新するようにします．  
 モデルの場所はmodels/以下にあります．
+
+## 結果
+
+三目並べでランダムプレイヤーとaiとの勝負でaiが後手のとき大体99%ぐらい
+
+https://github.com/sfjmr/gomokuAI_pytorch/commit/8ed3bacdd1e70ef272c1a8a1b4c86a88e46a2636#commitcomment-32269474
