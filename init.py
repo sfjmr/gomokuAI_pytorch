@@ -31,7 +31,7 @@ EPS_START = 0.9 # 初期値
 EPS_END = 0.2 #最終的にこの確率になる
 EPS_DECAY = 1000 # どれぐらいの速度でゆっくり収束するか　値が大きいほど遅く収束する
 
-random_search_value = 100
+random_search_value = 5
         
 
 #現在時刻
