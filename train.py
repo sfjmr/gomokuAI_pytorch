@@ -89,6 +89,7 @@ if __name__ == '__main__':
             
             tmp_data = []
             
+            print()
             log_print("episode_sum : " + str(episode_sum))
                 
             
