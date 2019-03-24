@@ -196,14 +196,17 @@ if __name__ == '__main__':
             log_print("episode_sum : " + str(episode_sum))
             #ランダムと比較
             win_rate_put_1st = check_win_rate_put_1st(Env, brain, brain.main_model, 1)
+            
             win_rate_random , not_lose_rate_random = check_win_rate_random(Env, brain, brain.main_model, 400)
+            log_print("not_lose_rate_random: "+str(not_lose_rate_random))
+            
             win_rate_random_ai_first , not_lose_rate_random_ai_first = check_win_rate_random_ai_first(Env, brain, brain.main_model, 400)
+            log_print("not_lose_rate_ai_first: "+str(not_lose_rate_random_ai_first))
             
             #log_print("vs put_1st player : "+str(win_rate_put_1st))
             writer_x.add_scalar('Val/win_rate_put_1st player', win_rate_put_1st, episode_sum)
             
             #log_print("vs random player : "+str(win_rate_random))
-            log_print("vs random player not lose: "+str(not_lose_rate_random))
             writer_x.add_scalar('Val/win_rate', win_rate_random, episode_sum)
             writer_x.add_scalar('Val/not_lose_rate', not_lose_rate_random, episode_sum)
             writer_x.add_scalar('Val/win_rate_ai_first', win_rate_random_ai_first, episode_sum)
