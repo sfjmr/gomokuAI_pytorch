@@ -98,10 +98,12 @@ if __name__ == '__main__':
                 step += 1
                 
                 if step%10==0:
+                    pass
                     #print(step, end="")
                 else:
-                    #print('*', end="")
                     pass
+                    #print('*', end="")
+                    
                 
                 print("\rstep : {0} ".format(step), end="")
 
