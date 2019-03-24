@@ -127,7 +127,6 @@ def check_win_rate_random(Env, brain, model, max_episode):#勝率を計算する
                 break
         #print('episode: {}/{}, win_0(AI 0): {}({}%), win_1(AI 1): {}({}%), step: {}'
         #       .format(episode+1, max_episode, win_0, int(100*win_0/(episode+1)),win_1,int(100*win_1/(episode+1)), step))
-    print()
     win_rate = 100*win_1/(max_episode)
     not_lose_rate = 100*(win_1 + hiki)/(max_episode)
     return win_rate, not_lose_rate
