@@ -104,7 +104,7 @@ if __name__ == '__main__':
                     #print('*', end="")
                     
                 
-                print("\rstep : episode_sum : {}, step : {} ".format(episode_sum, step), end="")
+                print("\r episode_sum : {}, step : {} ".format(episode_sum, step), end="")
 
                 '''
                 print('-'*10)
@@ -179,7 +179,6 @@ if __name__ == '__main__':
                 
                 #print('episode: {}/{}, step : {}, loss : {} '.format(episode, NUM_EPISODES, step, brain.loss_num))
             
-            print()
             brain.train(episode_sum, epoch_num, ep_random_data)
             writer_x.add_scalar('Val/Loss', brain.loss_num, episode_sum)
             writer_x.add_scalar('Val/Loss_v', brain.loss_v, episode_sum)
