@@ -25,4 +25,6 @@ init.pyで各種パラメーターを設定します．
 
 三目並べでランダムプレイヤーとaiとの勝負でaiが後手のとき大体99%ぐらい
 
+https://user-images.githubusercontent.com/37661524/52570907-db6e9280-2e57-11e9-832a-ded571f4bd93.png
+
 https://github.com/sfjmr/gomokuAI_pytorch/commit/8ed3bacdd1e70ef272c1a8a1b4c86a88e46a2636#commitcomment-32269474
