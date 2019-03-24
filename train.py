@@ -101,6 +101,7 @@ if __name__ == '__main__':
                     #print(step, end="")
                 else:
                     #print('*', end="")
+                    pass
                 
                 print("\rstep : {0} ".format(step), end="")
 
