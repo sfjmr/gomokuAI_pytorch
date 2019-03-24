@@ -94,6 +94,7 @@ if __name__ == '__main__':
                 
             
             while match_is_continue:
+                print("match_is_continue")
                 step += 1
                 
                 if step%10==0:
