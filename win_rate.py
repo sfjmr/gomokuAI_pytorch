@@ -87,6 +87,7 @@ def check_win_rate_random(Env, brain, model, max_episode):#勝率を計算する
     brain = brain
     
     for episode in range(max_episode):
+        print("\rstep : {0}/{1} ".format(episode, max_episode), end="")
         ban.ban_reset()
         step = 0
         while True:
@@ -139,6 +140,7 @@ def check_win_rate_random_ai_first(Env, brain, model, max_episode):#勝率を計
     brain = brain
     
     for episode in range(max_episode):
+        print("\rstep : {0}/{1} ".format(episode, max_episode), end="")
         ban.ban_reset()
         step = 0
         while True:
@@ -196,6 +198,7 @@ def check_win_rate_ai(Env, brain, main_model, new_model, max_episode):
     
     
     for episode in range(max_episode):
+        print("\rstep : {0}/{1} ".format(episode, max_episode), end="")
         ban.ban_reset()
         step = 0
         while True:#main_model先行
