@@ -194,6 +194,7 @@ if __name__ == '__main__':
         if True:
             print()
             log_print("episode_sum : " + str(episode_sum))
+            print(str(gen_num) +"gen")
             #ランダムと比較
             win_rate_put_1st = check_win_rate_put_1st(Env, brain, brain.main_model, 1)
             
