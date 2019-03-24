@@ -89,7 +89,6 @@ if __name__ == '__main__':
             
             tmp_data = []
             
-            print()
             log_print("episode_sum : " + str(episode_sum))
                 
             
@@ -179,7 +178,8 @@ if __name__ == '__main__':
                 player_side = 1 - player_side#playerを交代する
                 
                 #print('episode: {}/{}, step : {}, loss : {} '.format(episode, NUM_EPISODES, step, brain.loss_num))
-
+            
+            print()
             brain.train(episode_sum, epoch_num, ep_random_data)
             writer_x.add_scalar('Val/Loss', brain.loss_num, episode_sum)
             writer_x.add_scalar('Val/Loss_v', brain.loss_v, episode_sum)
